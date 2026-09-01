@@ -1,0 +1,18 @@
+### CSCE633_MachineLearning
+Data/basic/
+Data/Data_Arrays/
+Generative_model/Check_points/
+Generative_model/Terra_*
+Generative_model/output_*
+Backup/
+
+### CSCE689_GraphMining
+Reference/
+Data/*.txt
+
+### ECEN766_AlgorithmsInStructureBioinformatics
+Backup/
+Data/Datasets/pdb_origin/
+Data/Datasets/For_Seq_Stru/features*
+Seq_Fold/Terra*
+Seq_Fold/output*

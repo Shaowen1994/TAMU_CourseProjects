@@ -1,0 +1,901 @@
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_model.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_model.py:35: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_model.py:5: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_model.py:118: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/initializations.py:9: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_layers.py:109: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_model.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_model.py:209: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /scratch/user/shaowen1994/CourseProjects/TAMU_CSCE689_CourseProject/gae/gae_model.py:37: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From train_10FoldCV_gvae.py:123: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /scratch/user/shaowen1994/.conda/envs/GVAE/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From train_10FoldCV_gvae.py:146: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2021-12-12 20:25:58.921262: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-12-12 20:25:58.955504: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 20:25:58.993720: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:25:59.201903: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:25:59.368666: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 20:25:59.526248: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 20:25:59.689829: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 20:25:59.837752: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 20:26:00.025272: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 20:26:00.027394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 20:26:00.028083: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-12-12 20:26:00.039133: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2399995000 Hz
+2021-12-12 20:26:00.041206: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558630f2b910 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-12-12 20:26:00.041267: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-12-12 20:26:00.130269: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55862e12f670 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-12-12 20:26:00.130348: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla K80, Compute Capability 3.7
+2021-12-12 20:26:00.131404: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 20:26:00.131484: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:26:00.131518: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:26:00.131547: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 20:26:00.131575: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 20:26:00.131603: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 20:26:00.131631: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 20:26:00.131660: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 20:26:00.133278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 20:26:00.133363: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:26:00.134669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 20:26:00.134704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 20:26:00.134735: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 20:26:00.136629: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+WARNING:tensorflow:From /scratch/user/shaowen1994/.conda/envs/GVAE/lib/python3.7/site-packages/tensorflow_core/python/util/tf_should_use.py:198: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+2021-12-12 20:26:05.336625: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:32:00.562025: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 20:32:00.562591: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:32:00.562622: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:32:00.562654: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 20:32:00.562686: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 20:32:00.562706: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 20:32:00.562726: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 20:32:00.562747: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 20:32:00.563492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 20:32:00.563542: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 20:32:00.563558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 20:32:00.563570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 20:32:00.564409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 20:37:52.307816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 20:37:52.307986: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:37:52.308014: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:37:52.308035: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 20:37:52.308054: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 20:37:52.308074: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 20:37:52.308094: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 20:37:52.308114: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 20:37:52.308821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 20:37:52.308891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 20:37:52.308915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 20:37:52.308928: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 20:37:52.309736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 20:43:43.953449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 20:43:43.953594: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:43:43.953629: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:43:43.953655: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 20:43:43.953680: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 20:43:43.953706: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 20:43:43.953731: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 20:43:43.953756: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 20:43:43.954540: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 20:43:43.954601: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 20:43:43.954620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 20:43:43.954634: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 20:43:43.955476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 20:49:35.051003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 20:49:35.051146: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:49:35.051173: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:49:35.051194: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 20:49:35.051215: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 20:49:35.051235: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 20:49:35.051255: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 20:49:35.051276: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 20:49:35.051996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 20:49:35.052050: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 20:49:35.052066: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 20:49:35.052078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 20:49:35.052847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 20:55:29.254487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 20:55:29.254623: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 20:55:29.254650: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 20:55:29.254671: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 20:55:29.254692: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 20:55:29.254712: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 20:55:29.254732: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 20:55:29.254752: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 20:55:29.255501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 20:55:29.255554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 20:55:29.255569: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 20:55:29.255580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 20:55:29.256371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:01:19.711802: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:01:19.711959: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:01:19.712005: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:01:19.712033: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:01:19.712058: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:01:19.712084: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:01:19.712110: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:01:19.712136: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:01:19.712903: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:01:19.712972: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:01:19.712993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:01:19.713006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:01:19.713842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:07:10.175827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:07:10.175983: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:07:10.176012: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:07:10.176033: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:07:10.176053: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:07:10.176074: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:07:10.176094: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:07:10.176114: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:07:10.176830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:07:10.176884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:07:10.176900: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:07:10.176918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:07:10.177689: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:12:59.802127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:12:59.802268: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:12:59.802295: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:12:59.802316: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:12:59.802336: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:12:59.802356: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:12:59.802375: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:12:59.802395: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:12:59.803111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:12:59.803164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:12:59.803180: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:12:59.803192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:12:59.803955: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:18:48.832327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:18:48.832469: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:18:48.832496: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:18:48.832517: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:18:48.832537: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:18:48.832557: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:18:48.832577: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:18:48.832597: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:18:48.833311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:18:48.833364: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:18:48.833380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:18:48.833391: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:18:48.834744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:24:42.683059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:24:42.683206: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:24:42.683232: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:24:42.683252: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:24:42.683273: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:24:42.683293: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:24:42.683313: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:24:42.683333: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:24:42.684051: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:24:42.684105: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:24:42.684121: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:24:42.684133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:24:42.684885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:30:34.081806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:30:34.081971: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:30:34.082007: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:30:34.082034: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:30:34.082060: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:30:34.082085: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:30:34.082111: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:30:34.082140: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:30:34.082931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:30:34.082992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:30:34.083012: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:30:34.083026: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:30:34.083875: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:36:27.300650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:36:27.300794: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:36:27.300829: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:36:27.300855: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:36:27.300880: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:36:27.300919: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:36:27.300949: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:36:27.300976: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:36:27.301737: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:36:27.301796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:36:27.301816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:36:27.301830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:36:27.302654: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:42:16.575740: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:42:16.575880: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:42:16.575918: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:42:16.575942: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:42:16.575962: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:42:16.575982: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:42:16.576002: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:42:16.576022: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:42:16.576729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:42:16.576781: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:42:16.576796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:42:16.576807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:42:16.577561: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2021-12-12 21:48:09.000384: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.6405
+pciBusID: 0000:83:00.0
+2021-12-12 21:48:09.000528: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-12-12 21:48:09.000555: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-12-12 21:48:09.000576: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-12-12 21:48:09.000597: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-12-12 21:48:09.000617: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-12-12 21:48:09.000637: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-12-12 21:48:09.000658: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-12 21:48:09.001381: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-12-12 21:48:09.001435: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-12 21:48:09.001451: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-12-12 21:48:09.001463: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-12-12 21:48:09.002224: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11504 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+sample round 1
+Validation: 1
+step 0 total and dtiloss 325011230.0 703.6369
+valid auc aupr, 0.6412448700410397 0.5292582028557165 test auc aupr 0.6048979591836735 0.5735554580594535
+step 25 total and dtiloss 296130020.0 1013.0765
+valid auc aupr, 0.365766073871409 0.36907929058551747 test auc aupr 0.6048979591836735 0.5735554580594535
+step 50 total and dtiloss 295872500.0 880.7319
+valid auc aupr, 0.5709644322845417 0.5234658607614999 test auc aupr 0.6048979591836735 0.5735554580594535
+step 75 total and dtiloss 295822500.0 914.66364
+valid auc aupr, 0.5772913816689467 0.5265210356620573 test auc aupr 0.6048979591836735 0.5735554580594535
+step 100 total and dtiloss 295804220.0 916.5934
+valid auc aupr, 0.5899452804377565 0.5384506009926244 test auc aupr 0.607583066284365 0.5774822736805031
+step 125 total and dtiloss 295793470.0 912.07825
+valid auc aupr, 0.5918262653898769 0.5494468369779788 test auc aupr 0.6102142013830326 0.5767205336538257
+step 150 total and dtiloss 295785920.0 914.38403
+valid auc aupr, 0.5887482900136799 0.5417561465812339 test auc aupr 0.6102142013830326 0.5767205336538257
+step 175 total and dtiloss 295781280.0 915.3228
+valid auc aupr, 0.5887482900136799 0.5399659270350196 test auc aupr 0.6102142013830326 0.5767205336538257
+step 200 total and dtiloss 295777660.0 919.5986
+valid auc aupr, 0.5882352941176471 0.5401315372358244 test auc aupr 0.6102142013830326 0.5767205336538257
+step 225 total and dtiloss 295775100.0 924.1983
+valid auc aupr, 0.5878932968536252 0.5406863724451444 test auc aupr 0.6102142013830326 0.5767205336538257
+step 250 total and dtiloss 295773020.0 922.3741
+valid auc aupr, 0.5872093023255814 0.538707572481719 test auc aupr 0.6102142013830326 0.5767205336538257
+step 275 total and dtiloss 295771500.0 930.9806
+valid auc aupr, 0.591484268125855 0.5358754422778155 test auc aupr 0.6102142013830326 0.5767205336538257
+step 300 total and dtiloss 295770140.0 921.0399
+valid auc aupr, 0.5901162790697674 0.5364111127047955 test auc aupr 0.6102142013830326 0.5767205336538257
+step 325 total and dtiloss 295769180.0 922.015
+valid auc aupr, 0.5873803009575923 0.5353129099886502 test auc aupr 0.6102142013830326 0.5767205336538257
+step 350 total and dtiloss 295767740.0 924.9398
+valid auc aupr, 0.5913132694938441 0.5349786202253404 test auc aupr 0.6102142013830326 0.5767205336538257
+step 375 total and dtiloss 295766660.0 918.09314
+valid auc aupr, 0.5848153214774282 0.529304339605404 test auc aupr 0.6102142013830326 0.5767205336538257
+step 400 total and dtiloss 295765800.0 912.73724
+valid auc aupr, 0.5894322845417237 0.537179637459395 test auc aupr 0.6102142013830326 0.5767205336538257
+step 425 total and dtiloss 295765000.0 919.6653
+valid auc aupr, 0.5899452804377565 0.5364727598898541 test auc aupr 0.6102142013830326 0.5767205336538257
+step 450 total and dtiloss 295764300.0 917.0714
+valid auc aupr, 0.5942202462380302 0.5377563933708632 test auc aupr 0.6102142013830326 0.5767205336538257
+step 475 total and dtiloss 295764000.0 914.3208
+valid auc aupr, 0.591484268125855 0.5404673355522254 test auc aupr 0.6102142013830326 0.5767205336538257
+Validation: 2
+step 0 total and dtiloss 325091400.0 705.1744
+valid auc aupr, 0.6255129958960328 0.5285617849949606 test auc aupr 0.6352475649350648 0.6126895394903265
+step 25 total and dtiloss 296152000.0 1033.2076
+valid auc aupr, 0.33635430916552667 0.370190063817914 test auc aupr 0.6352475649350648 0.6126895394903265
+step 50 total and dtiloss 295873250.0 887.4069
+valid auc aupr, 0.5984952120383037 0.5250725154539623 test auc aupr 0.6352475649350648 0.6126895394903265
+step 75 total and dtiloss 295823300.0 919.1253
+valid auc aupr, 0.6231190150478796 0.556319918451601 test auc aupr 0.5911458333333333 0.5828527396200553
+step 100 total and dtiloss 295805020.0 910.38275
+valid auc aupr, 0.6239740082079344 0.547102044691457 test auc aupr 0.5911458333333333 0.5828527396200553
+step 125 total and dtiloss 295793860.0 897.3552
+valid auc aupr, 0.6272229822161423 0.5565835776628273 test auc aupr 0.6022389069264069 0.5959800465826539
+step 150 total and dtiloss 295786370.0 910.93317
+valid auc aupr, 0.6291039671682626 0.5519532949137267 test auc aupr 0.6022389069264069 0.5959800465826539
+step 175 total and dtiloss 295780770.0 919.4232
+valid auc aupr, 0.6255129958960328 0.557855064246332 test auc aupr 0.5996009199134199 0.5859458026071884
+step 200 total and dtiloss 295777180.0 916.26624
+valid auc aupr, 0.625341997264022 0.5469442347840808 test auc aupr 0.5996009199134199 0.5859458026071884
+step 225 total and dtiloss 295774600.0 908.50415
+valid auc aupr, 0.6238030095759234 0.545589268564461 test auc aupr 0.5996009199134199 0.5859458026071884
+step 250 total and dtiloss 295772540.0 908.55695
+valid auc aupr, 0.6229480164158687 0.5495634410395992 test auc aupr 0.5996009199134199 0.5859458026071884
+step 275 total and dtiloss 295771040.0 925.5564
+valid auc aupr, 0.6272229822161421 0.5530724455482077 test auc aupr 0.5996009199134199 0.5859458026071884
+step 300 total and dtiloss 295769860.0 917.31903
+valid auc aupr, 0.6284199726402189 0.5566062761884538 test auc aupr 0.5996009199134199 0.5859458026071884
+step 325 total and dtiloss 295768580.0 925.31934
+valid auc aupr, 0.6208960328317373 0.5484830427626666 test auc aupr 0.5996009199134199 0.5859458026071884
+step 350 total and dtiloss 295767360.0 922.81165
+valid auc aupr, 0.6267099863201095 0.5537625377956046 test auc aupr 0.5996009199134199 0.5859458026071884
+step 375 total and dtiloss 295766340.0 919.08765
+valid auc aupr, 0.624658002735978 0.549289378130822 test auc aupr 0.5996009199134199 0.5859458026071884
+step 400 total and dtiloss 295765380.0 918.1816
+valid auc aupr, 0.6244870041039672 0.5521183481783352 test auc aupr 0.5996009199134199 0.5859458026071884
+step 425 total and dtiloss 295764480.0 926.7729
+valid auc aupr, 0.6273939808481532 0.5607349221060387 test auc aupr 0.6001623376623376 0.5879292560675776
+step 450 total and dtiloss 295763740.0 923.8706
+valid auc aupr, 0.6308139534883721 0.5724210449181436 test auc aupr 0.5989718614718615 0.5872824670409864
+step 475 total and dtiloss 295763100.0 918.22253
+valid auc aupr, 0.628419972640219 0.5696774248603771 test auc aupr 0.5989718614718615 0.5872824670409864
+Validation: 3
+step 0 total and dtiloss 325312260.0 711.81714
+valid auc aupr, 0.548734610123119 0.45997599395366473 test auc aupr 0.619040854978355 0.5869556045884885
+step 25 total and dtiloss 296135500.0 1018.4053
+valid auc aupr, 0.4410054719562244 0.41109963610912714 test auc aupr 0.619040854978355 0.5869556045884885
+step 50 total and dtiloss 295869980.0 877.04895
+valid auc aupr, 0.6217510259917921 0.5216104051848057 test auc aupr 0.5634199134199134 0.5358021240911343
+step 75 total and dtiloss 295820740.0 905.9548
+valid auc aupr, 0.6212380300957592 0.517504564336081 test auc aupr 0.5634199134199134 0.5358021240911343
+step 100 total and dtiloss 295802940.0 909.08453
+valid auc aupr, 0.6366279069767442 0.5458337754360028 test auc aupr 0.5720441017316017 0.5549991890416017
+step 125 total and dtiloss 295793470.0 907.22107
+valid auc aupr, 0.6403898768809849 0.55899478016706 test auc aupr 0.5740800865800866 0.5595190995502624
+step 150 total and dtiloss 295787070.0 905.8533
+valid auc aupr, 0.646374829001368 0.5621135435666516 test auc aupr 0.5777800324675324 0.5599067047685155
+step 175 total and dtiloss 295782340.0 908.2618
+valid auc aupr, 0.6436388508891929 0.558726430618429 test auc aupr 0.5777800324675324 0.5599067047685155
+step 200 total and dtiloss 295779170.0 909.1049
+valid auc aupr, 0.6458618331053351 0.569501957428473 test auc aupr 0.5785781926406927 0.5628235638606042
+step 225 total and dtiloss 295776400.0 914.42255
+valid auc aupr, 0.6453488372093024 0.5667020698440219 test auc aupr 0.5785781926406927 0.5628235638606042
+step 250 total and dtiloss 295774240.0 909.8873
+valid auc aupr, 0.6439808481532148 0.5623081821002978 test auc aupr 0.5785781926406927 0.5628235638606042
+step 275 total and dtiloss 295772260.0 924.4415
+valid auc aupr, 0.6390218878248974 0.5523436132086559 test auc aupr 0.5785781926406927 0.5628235638606042
+step 300 total and dtiloss 295770880.0 912.05066
+valid auc aupr, 0.6415868673050615 0.5542860161604537 test auc aupr 0.5785781926406927 0.5628235638606042
+step 325 total and dtiloss 295769400.0 918.13477
+valid auc aupr, 0.6407318741450068 0.5554644770075261 test auc aupr 0.5785781926406927 0.5628235638606042
+step 350 total and dtiloss 295768300.0 923.4386
+valid auc aupr, 0.643467852257182 0.56046084422259 test auc aupr 0.5785781926406927 0.5628235638606042
+step 375 total and dtiloss 295766980.0 909.4722
+valid auc aupr, 0.6415868673050615 0.5552469366261574 test auc aupr 0.5785781926406927 0.5628235638606042
+step 400 total and dtiloss 295766050.0 922.0647
+valid auc aupr, 0.6439808481532148 0.5638991240509426 test auc aupr 0.5785781926406927 0.5628235638606042
+step 425 total and dtiloss 295765280.0 918.2588
+valid auc aupr, 0.63406292749658 0.5488499517049455 test auc aupr 0.5785781926406927 0.5628235638606042
+step 450 total and dtiloss 295764400.0 911.00977
+valid auc aupr, 0.6364569083447332 0.5545662961763549 test auc aupr 0.5785781926406927 0.5628235638606042
+step 475 total and dtiloss 295763970.0 921.5807
+valid auc aupr, 0.6354309165526676 0.5534533571763431 test auc aupr 0.5785781926406927 0.5628235638606042
+Validation: 4
+step 0 total and dtiloss 324989400.0 706.43604
+valid auc aupr, 0.5846443228454172 0.48213197196944074 test auc aupr 0.6278442911255411 0.5900450353435968
+step 25 total and dtiloss 296129120.0 1001.9351
+valid auc aupr, 0.3122435020519836 0.3538379531328958 test auc aupr 0.6278442911255411 0.5900450353435968
+step 50 total and dtiloss 295872060.0 886.9739
+valid auc aupr, 0.6509917920656635 0.5501404756275805 test auc aupr 0.5755005411255412 0.5553179858501649
+step 75 total and dtiloss 295824220.0 912.266
+valid auc aupr, 0.6436388508891928 0.5281414316087661 test auc aupr 0.5755005411255412 0.5553179858501649
+step 100 total and dtiloss 295804960.0 907.2938
+valid auc aupr, 0.6562927496580027 0.5561899797155244 test auc aupr 0.5836512445887446 0.5615663695405634
+step 125 total and dtiloss 295793380.0 912.6181
+valid auc aupr, 0.6568057455540356 0.5674478995972905 test auc aupr 0.5849499458874459 0.5637820523240025
+step 150 total and dtiloss 295786300.0 914.96533
+valid auc aupr, 0.658344733242134 0.5666908277865814 test auc aupr 0.5849499458874459 0.5637820523240025
+step 175 total and dtiloss 295780930.0 913.16693
+valid auc aupr, 0.655608755129959 0.5617206055569044 test auc aupr 0.5849499458874459 0.5637820523240025
+step 200 total and dtiloss 295777120.0 919.1838
+valid auc aupr, 0.6532147742818057 0.5536722095421285 test auc aupr 0.5849499458874459 0.5637820523240025
+step 225 total and dtiloss 295774660.0 916.98
+valid auc aupr, 0.6516757865937073 0.5524554324132576 test auc aupr 0.5849499458874459 0.5637820523240025
+step 250 total and dtiloss 295772700.0 916.1173
+valid auc aupr, 0.6574897400820794 0.558061788691639 test auc aupr 0.5849499458874459 0.5637820523240025
+step 275 total and dtiloss 295771170.0 919.6896
+valid auc aupr, 0.6547537619699043 0.5524238805770271 test auc aupr 0.5849499458874459 0.5637820523240025
+step 300 total and dtiloss 295769400.0 920.7073
+valid auc aupr, 0.6506497948016416 0.5472683806426633 test auc aupr 0.5849499458874459 0.5637820523240025
+step 325 total and dtiloss 295768000.0 925.01996
+valid auc aupr, 0.6540697674418605 0.5548016317812903 test auc aupr 0.5849499458874459 0.5637820523240025
+step 350 total and dtiloss 295766980.0 919.98004
+valid auc aupr, 0.6479138166894665 0.5505717281752223 test auc aupr 0.5849499458874459 0.5637820523240025
+step 375 total and dtiloss 295766080.0 914.8225
+valid auc aupr, 0.6509917920656636 0.549042540694227 test auc aupr 0.5849499458874459 0.5637820523240025
+step 400 total and dtiloss 295765400.0 925.45807
+valid auc aupr, 0.6538987688098495 0.5502634216205873 test auc aupr 0.5849499458874459 0.5637820523240025
+step 425 total and dtiloss 295764450.0 917.05023
+valid auc aupr, 0.6518467852257182 0.5604404730659642 test auc aupr 0.5849499458874459 0.5637820523240025
+step 450 total and dtiloss 295763940.0 916.68384
+valid auc aupr, 0.6513337893296853 0.5582790568997823 test auc aupr 0.5849499458874459 0.5637820523240025
+step 475 total and dtiloss 295763200.0 923.0513
+valid auc aupr, 0.6518467852257182 0.5617757969650945 test auc aupr 0.5849499458874459 0.5637820523240025
+Validation: 5
+step 0 total and dtiloss 325125470.0 704.73804
+valid auc aupr, 0.5569425444596443 0.5028712544940362 test auc aupr 0.6379396645021645 0.605801949462079
+step 25 total and dtiloss 296137380.0 970.0009
+valid auc aupr, 0.503077975376197 0.43413505173729033 test auc aupr 0.6379396645021645 0.605801949462079
+step 50 total and dtiloss 295874430.0 864.3103
+valid auc aupr, 0.6451778385772914 0.6067395722080409 test auc aupr 0.5978084415584415 0.5603307847781023
+step 75 total and dtiloss 295822880.0 917.655
+valid auc aupr, 0.639705882352941 0.5797946163858297 test auc aupr 0.5978084415584415 0.5603307847781023
+step 100 total and dtiloss 295803330.0 914.4924
+valid auc aupr, 0.6427838577291383 0.6125866997232067 test auc aupr 0.5854437229437229 0.5658153623132743
+step 125 total and dtiloss 295792100.0 914.55035
+valid auc aupr, 0.6450068399452804 0.617424987866718 test auc aupr 0.5828125 0.5681624762752403
+step 150 total and dtiloss 295785440.0 912.562
+valid auc aupr, 0.6455198358413132 0.6124470161402915 test auc aupr 0.5828125 0.5681624762752403
+step 175 total and dtiloss 295780860.0 920.1361
+valid auc aupr, 0.6474008207934336 0.6121567902306999 test auc aupr 0.5828125 0.5681624762752403
+step 200 total and dtiloss 295777150.0 916.9097
+valid auc aupr, 0.6456908344733242 0.6091056438856803 test auc aupr 0.5828125 0.5681624762752403
+step 225 total and dtiloss 295774340.0 921.9196
+valid auc aupr, 0.646545827633379 0.6087287429348343 test auc aupr 0.5828125 0.5681624762752403
+step 250 total and dtiloss 295772030.0 926.29333
+valid auc aupr, 0.6487688098495212 0.6079883191395138 test auc aupr 0.5828125 0.5681624762752403
+step 275 total and dtiloss 295770200.0 928.022
+valid auc aupr, 0.6436388508891928 0.5981349209468108 test auc aupr 0.5828125 0.5681624762752403
+step 300 total and dtiloss 295768700.0 928.29205
+valid auc aupr, 0.652530779753762 0.614693612125329 test auc aupr 0.5828125 0.5681624762752403
+step 325 total and dtiloss 295767260.0 924.5926
+valid auc aupr, 0.6462038303693571 0.6032158194332586 test auc aupr 0.5828125 0.5681624762752403
+step 350 total and dtiloss 295766300.0 922.65405
+valid auc aupr, 0.6470588235294118 0.6111948435872894 test auc aupr 0.5828125 0.5681624762752403
+step 375 total and dtiloss 295765300.0 919.65265
+valid auc aupr, 0.6509917920656634 0.6071148477119903 test auc aupr 0.5828125 0.5681624762752403
+step 400 total and dtiloss 295764670.0 927.70325
+valid auc aupr, 0.6443228454172365 0.605189018879011 test auc aupr 0.5828125 0.5681624762752403
+step 425 total and dtiloss 295764160.0 925.6346
+valid auc aupr, 0.6468878248974008 0.6101034775732723 test auc aupr 0.5828125 0.5681624762752403
+step 450 total and dtiloss 295763550.0 917.8857
+valid auc aupr, 0.6482558139534884 0.6120509731036763 test auc aupr 0.5828125 0.5681624762752403
+step 475 total and dtiloss 295762880.0 925.18115
+valid auc aupr, 0.6491108071135432 0.6068395323289908 test auc aupr 0.5828125 0.5681624762752403
+sample round 2
+Validation: 1
+step 0 total and dtiloss 325180800.0 711.4277
+valid auc aupr, 0.6363482384823848 0.6877138661433853 test auc aupr 0.6039804351492662 0.5752561895598018
+step 25 total and dtiloss 296133060.0 939.769
+valid auc aupr, 0.4690040650406504 0.505351531160795 test auc aupr 0.6039804351492662 0.5752561895598018
+step 50 total and dtiloss 295871420.0 870.0648
+valid auc aupr, 0.5525067750677507 0.5572317552854079 test auc aupr 0.6039804351492662 0.5752561895598018
+step 75 total and dtiloss 295822180.0 909.22003
+valid auc aupr, 0.5386178861788617 0.5361776511970938 test auc aupr 0.6039804351492662 0.5752561895598018
+step 100 total and dtiloss 295804300.0 896.82465
+valid auc aupr, 0.5484417344173442 0.5570545175878424 test auc aupr 0.6039804351492662 0.5752561895598018
+step 125 total and dtiloss 295793250.0 893.28815
+valid auc aupr, 0.5433604336043361 0.5505917163785039 test auc aupr 0.6039804351492662 0.5752561895598018
+step 150 total and dtiloss 295786530.0 903.903
+valid auc aupr, 0.5425135501355014 0.5460245804825663 test auc aupr 0.6039804351492662 0.5752561895598018
+step 175 total and dtiloss 295781860.0 906.25635
+valid auc aupr, 0.5423441734417344 0.5431793978970372 test auc aupr 0.6039804351492662 0.5752561895598018
+step 200 total and dtiloss 295777700.0 915.22424
+valid auc aupr, 0.5411585365853658 0.5439733855081101 test auc aupr 0.6039804351492662 0.5752561895598018
+step 225 total and dtiloss 295774660.0 912.5917
+valid auc aupr, 0.5357384823848239 0.538960109654298 test auc aupr 0.6039804351492662 0.5752561895598018
+step 250 total and dtiloss 295772350.0 913.4925
+valid auc aupr, 0.5399728997289973 0.5415455467376121 test auc aupr 0.6039804351492662 0.5752561895598018
+step 275 total and dtiloss 295770750.0 917.64813
+valid auc aupr, 0.5394647696476965 0.5464517082453638 test auc aupr 0.6039804351492662 0.5752561895598018
+step 300 total and dtiloss 295769340.0 912.5437
+valid auc aupr, 0.5365853658536586 0.5387946992238524 test auc aupr 0.6039804351492662 0.5752561895598018
+step 325 total and dtiloss 295768060.0 909.7453
+valid auc aupr, 0.5403116531165312 0.5447583083501315 test auc aupr 0.6039804351492662 0.5752561895598018
+step 350 total and dtiloss 295767300.0 905.09735
+valid auc aupr, 0.5367547425474255 0.5424415473622177 test auc aupr 0.6039804351492662 0.5752561895598018
+step 375 total and dtiloss 295766400.0 914.15155
+valid auc aupr, 0.5350609756097561 0.5369887270770483 test auc aupr 0.6039804351492662 0.5752561895598018
+step 400 total and dtiloss 295765700.0 916.37494
+valid auc aupr, 0.53539972899729 0.5406709126308481 test auc aupr 0.6039804351492662 0.5752561895598018
+step 425 total and dtiloss 295764770.0 911.674
+valid auc aupr, 0.5364159891598916 0.540954580288677 test auc aupr 0.6039804351492662 0.5752561895598018
+step 450 total and dtiloss 295764350.0 912.35236
+valid auc aupr, 0.5377710027100271 0.5417603223857537 test auc aupr 0.6039804351492662 0.5752561895598018
+step 475 total and dtiloss 295763600.0 911.92236
+valid auc aupr, 0.5330284552845529 0.5357683909022977 test auc aupr 0.6039804351492662 0.5752561895598018
+Validation: 2
+step 0 total and dtiloss 325025150.0 705.8785
+valid auc aupr, 0.5543936582897622 0.5506512936843555 test auc aupr 0.5813852813852814 0.5529062629024926
+step 25 total and dtiloss 296140300.0 966.25354
+valid auc aupr, 0.392477652217912 0.4253085683957676 test auc aupr 0.5813852813852814 0.5529062629024926
+step 50 total and dtiloss 295873380.0 877.1081
+valid auc aupr, 0.5709225839095968 0.5806698455034911 test auc aupr 0.5868844696969697 0.5719154096053987
+step 75 total and dtiloss 295824640.0 908.7076
+valid auc aupr, 0.5705852588969472 0.5790810599690752 test auc aupr 0.5868844696969697 0.5719154096053987
+step 100 total and dtiloss 295805000.0 913.51935
+valid auc aupr, 0.5667060212514757 0.5821889811838862 test auc aupr 0.5920386904761905 0.5955160198029787
+step 125 total and dtiloss 295792930.0 918.5163
+valid auc aupr, 0.5638387586439534 0.593789418098595 test auc aupr 0.5952245670995671 0.6038008316583025
+step 150 total and dtiloss 295786430.0 920.55707
+valid auc aupr, 0.5635014336313038 0.5892060896241537 test auc aupr 0.5952245670995671 0.6038008316583025
+step 175 total and dtiloss 295781060.0 924.1207
+valid auc aupr, 0.5631641086186541 0.5930143585183494 test auc aupr 0.5952245670995671 0.6038008316583025
+step 200 total and dtiloss 295777470.0 921.9633
+valid auc aupr, 0.5628267836060044 0.5887391287122989 test auc aupr 0.5952245670995671 0.6038008316583025
+step 225 total and dtiloss 295774430.0 915.611
+valid auc aupr, 0.5633327711249788 0.5909232537366368 test auc aupr 0.5952245670995671 0.6038008316583025
+step 250 total and dtiloss 295771970.0 914.8909
+valid auc aupr, 0.5648507336819026 0.5863152662699336 test auc aupr 0.5952245670995671 0.6038008316583025
+step 275 total and dtiloss 295770560.0 921.8481
+valid auc aupr, 0.5609714960364311 0.5844766606539061 test auc aupr 0.5952245670995671 0.6038008316583025
+step 300 total and dtiloss 295769020.0 912.9658
+valid auc aupr, 0.5648507336819025 0.5855051322212557 test auc aupr 0.5952245670995671 0.6038008316583025
+step 325 total and dtiloss 295767940.0 912.597
+valid auc aupr, 0.5690672963400236 0.5942831164631461 test auc aupr 0.6036323051948052 0.6132828006889783
+step 350 total and dtiloss 295766850.0 917.3427
+valid auc aupr, 0.5628267836060045 0.5850149908465225 test auc aupr 0.6036323051948052 0.6132828006889783
+step 375 total and dtiloss 295765950.0 918.46936
+valid auc aupr, 0.5609714960364311 0.5838053429294453 test auc aupr 0.6036323051948052 0.6132828006889783
+step 400 total and dtiloss 295764960.0 920.0989
+valid auc aupr, 0.5619834710743801 0.5897611607452218 test auc aupr 0.6036323051948052 0.6132828006889783
+step 425 total and dtiloss 295764320.0 928.57166
+valid auc aupr, 0.5631641086186541 0.5883838717179013 test auc aupr 0.6036323051948052 0.6132828006889783
+step 450 total and dtiloss 295763600.0 920.8885
+valid auc aupr, 0.5633327711249789 0.5913016560091018 test auc aupr 0.6036323051948052 0.6132828006889783
+step 475 total and dtiloss 295762980.0 918.25446
+valid auc aupr, 0.5645134086692529 0.588261030302224 test auc aupr 0.6036323051948052 0.6132828006889783
+Validation: 3
+step 0 total and dtiloss 325169800.0 710.89166
+valid auc aupr, 0.5827289593523359 0.562868490240943 test auc aupr 0.5636634199134198 0.5303165580581376
+step 25 total and dtiloss 296141300.0 966.61993
+valid auc aupr, 0.4373418789003204 0.4538442230551848 test auc aupr 0.5636634199134198 0.5303165580581376
+step 50 total and dtiloss 295872770.0 866.46295
+valid auc aupr, 0.6162927981109799 0.5752517592164104 test auc aupr 0.5782805735930736 0.5445862961103218
+step 75 total and dtiloss 295822600.0 905.72626
+valid auc aupr, 0.6006071850227693 0.5810371449337743 test auc aupr 0.573248106060606 0.54925801110982
+step 100 total and dtiloss 295802140.0 899.51794
+valid auc aupr, 0.61072693540226 0.5887298709111638 test auc aupr 0.5756020021645022 0.5523202600047098
+step 125 total and dtiloss 295791360.0 910.71936
+valid auc aupr, 0.6108955979085848 0.5843936127003935 test auc aupr 0.5756020021645022 0.5523202600047098
+step 150 total and dtiloss 295784960.0 915.5572
+valid auc aupr, 0.6144375105414066 0.5854926660190463 test auc aupr 0.5756020021645022 0.5523202600047098
+step 175 total and dtiloss 295780300.0 903.9662
+valid auc aupr, 0.6193287232248271 0.5978548027330242 test auc aupr 0.5761701839826839 0.5519230373859167
+step 200 total and dtiloss 295776930.0 915.68976
+valid auc aupr, 0.6179794231742284 0.5935959197055749 test auc aupr 0.5761701839826839 0.5519230373859167
+step 225 total and dtiloss 295774720.0 908.7008
+valid auc aupr, 0.6152808230730309 0.5920148013175048 test auc aupr 0.5761701839826839 0.5519230373859167
+step 250 total and dtiloss 295772670.0 910.53906
+valid auc aupr, 0.6220273233260246 0.6017389737426767 test auc aupr 0.5753923160173161 0.550739269132721
+step 275 total and dtiloss 295770940.0 905.4232
+valid auc aupr, 0.6181480856805532 0.5898660250974175 test auc aupr 0.5753923160173161 0.550739269132721
+step 300 total and dtiloss 295769340.0 910.42316
+valid auc aupr, 0.6183167481868781 0.5895753633942805 test auc aupr 0.5753923160173161 0.550739269132721
+step 325 total and dtiloss 295768200.0 910.3762
+valid auc aupr, 0.613931523022432 0.5859288767772128 test auc aupr 0.5753923160173161 0.550739269132721
+step 350 total and dtiloss 295767520.0 928.8474
+valid auc aupr, 0.6171361106426041 0.5894810293127081 test auc aupr 0.5753923160173161 0.550739269132721
+step 375 total and dtiloss 295766460.0 908.16364
+valid auc aupr, 0.6228706358576488 0.5962249000439483 test auc aupr 0.5753923160173161 0.550739269132721
+step 400 total and dtiloss 295765540.0 910.16614
+valid auc aupr, 0.6169674481362792 0.5867243109688686 test auc aupr 0.5753923160173161 0.550739269132721
+step 425 total and dtiloss 295764770.0 910.7919
+valid auc aupr, 0.6188227357058526 0.5936145465726581 test auc aupr 0.5753923160173161 0.550739269132721
+step 450 total and dtiloss 295764300.0 904.27783
+valid auc aupr, 0.6225333108449992 0.5939199922714558 test auc aupr 0.5753923160173161 0.550739269132721
+step 475 total and dtiloss 295763740.0 914.4667
+valid auc aupr, 0.6134255355034576 0.5803454014857589 test auc aupr 0.5753923160173161 0.550739269132721
+Validation: 4
+step 0 total and dtiloss 324953920.0 711.0062
+valid auc aupr, 0.6385562489458594 0.5957860175432543 test auc aupr 0.6115428841991342 0.5788562794372735
+step 25 total and dtiloss 296132500.0 1014.51953
+valid auc aupr, 0.43363130376117387 0.46182223451192117 test auc aupr 0.6115428841991342 0.5788562794372735
+step 50 total and dtiloss 295873820.0 864.9724
+valid auc aupr, 0.6169674481362792 0.5810837641593899 test auc aupr 0.6115428841991342 0.5788562794372735
+step 75 total and dtiloss 295823580.0 914.0155
+valid auc aupr, 0.6061730477314893 0.5830349088478406 test auc aupr 0.6115428841991342 0.5788562794372735
+step 100 total and dtiloss 295804220.0 912.19916
+valid auc aupr, 0.6171361106426041 0.603640948992507 test auc aupr 0.5885619588744588 0.5756322733512265
+step 125 total and dtiloss 295792420.0 905.27405
+valid auc aupr, 0.6149434980603812 0.6053911979089507 test auc aupr 0.5948457792207793 0.5846637735894218
+step 150 total and dtiloss 295785570.0 909.8957
+valid auc aupr, 0.6159554730983302 0.6242178645333903 test auc aupr 0.5929991883116883 0.5845377380146404
+step 175 total and dtiloss 295781120.0 915.06024
+valid auc aupr, 0.6206780232754259 0.6281092406370465 test auc aupr 0.5930397727272727 0.5828245638471848
+step 200 total and dtiloss 295777820.0 919.91156
+valid auc aupr, 0.6218586608196998 0.6338176234757539 test auc aupr 0.5925595238095238 0.5821100019633205
+step 225 total and dtiloss 295775330.0 920.1553
+valid auc aupr, 0.6167987856299544 0.616122541983624 test auc aupr 0.5925595238095238 0.5821100019633205
+step 250 total and dtiloss 295773100.0 925.297
+valid auc aupr, 0.6221959858323495 0.6286176438536569 test auc aupr 0.5925595238095238 0.5821100019633205
+step 275 total and dtiloss 295771140.0 924.69556
+valid auc aupr, 0.6149434980603812 0.6219589116283848 test auc aupr 0.5925595238095238 0.5821100019633205
+step 300 total and dtiloss 295769630.0 926.41205
+valid auc aupr, 0.6154494855793556 0.6235753246628776 test auc aupr 0.5925595238095238 0.5821100019633205
+step 325 total and dtiloss 295768260.0 918.61487
+valid auc aupr, 0.6152808230730309 0.6235946417337516 test auc aupr 0.5925595238095238 0.5821100019633205
+step 350 total and dtiloss 295767200.0 922.7079
+valid auc aupr, 0.6124135604655084 0.6186887773457685 test auc aupr 0.5925595238095238 0.5821100019633205
+step 375 total and dtiloss 295766200.0 917.4546
+valid auc aupr, 0.6142688480350817 0.6205892516091733 test auc aupr 0.5925595238095238 0.5821100019633205
+step 400 total and dtiloss 295765380.0 917.44183
+valid auc aupr, 0.6179794231742283 0.624087066250795 test auc aupr 0.5925595238095238 0.5821100019633205
+step 425 total and dtiloss 295764600.0 913.5683
+valid auc aupr, 0.6125822229718334 0.6258920584310842 test auc aupr 0.5925595238095238 0.5821100019633205
+step 450 total and dtiloss 295764000.0 912.39014
+valid auc aupr, 0.6159554730983302 0.6214689294489882 test auc aupr 0.5925595238095238 0.5821100019633205
+step 475 total and dtiloss 295763400.0 919.8478
+valid auc aupr, 0.6166301231236295 0.630933503412257 test auc aupr 0.5925595238095238 0.5821100019633205
+Validation: 5
+step 0 total and dtiloss 325269860.0 716.648
+valid auc aupr, 0.6083656603137122 0.6061784231645906 test auc aupr 0.5816220238095239 0.5663659111628453
+step 25 total and dtiloss 296143500.0 1003.1294
+valid auc aupr, 0.4358239163433968 0.454743858006295 test auc aupr 0.5816220238095239 0.5663659111628453
+step 50 total and dtiloss 295872900.0 872.516
+valid auc aupr, 0.6495193118569742 0.6203947987962518 test auc aupr 0.5517992424242424 0.528031633585784
+step 75 total and dtiloss 295824450.0 914.11774
+valid auc aupr, 0.6447967616798785 0.6301295728098907 test auc aupr 0.547077922077922 0.5260625036598092
+step 100 total and dtiloss 295804320.0 901.1129
+valid auc aupr, 0.6395682239838084 0.6222456986134156 test auc aupr 0.547077922077922 0.5260625036598092
+step 125 total and dtiloss 295792500.0 914.2027
+valid auc aupr, 0.6390622364648338 0.6206493198551808 test auc aupr 0.547077922077922 0.5260625036598092
+step 150 total and dtiloss 295785150.0 908.18225
+valid auc aupr, 0.6409175240344072 0.6329535455799861 test auc aupr 0.5488230519480519 0.5342440322790339
+step 175 total and dtiloss 295779800.0 911.0544
+valid auc aupr, 0.6346770113003879 0.6235279980769817 test auc aupr 0.5488230519480519 0.5342440322790339
+step 200 total and dtiloss 295776350.0 905.83673
+valid auc aupr, 0.6388935739585091 0.6332949306990732 test auc aupr 0.5486201298701299 0.5329951422733542
+step 225 total and dtiloss 295774800.0 903.72614
+valid auc aupr, 0.641086186540732 0.6363516621853239 test auc aupr 0.5455627705627706 0.5282454254018873
+step 250 total and dtiloss 295773120.0 907.5563
+valid auc aupr, 0.639905548996458 0.6341462177543253 test auc aupr 0.5455627705627706 0.5282454254018873
+step 275 total and dtiloss 295771500.0 916.91266
+valid auc aupr, 0.6365322988699612 0.6289580070204275 test auc aupr 0.5455627705627706 0.5282454254018873
+step 300 total and dtiloss 295769800.0 913.68616
+valid auc aupr, 0.6370382863889357 0.6307696832274874 test auc aupr 0.5455627705627706 0.5282454254018873
+step 325 total and dtiloss 295768420.0 917.96796
+valid auc aupr, 0.6404115365154326 0.6330452085412713 test auc aupr 0.5455627705627706 0.5282454254018873
+step 350 total and dtiloss 295767170.0 907.459
+valid auc aupr, 0.6432787991229549 0.637177913477838 test auc aupr 0.5503787878787878 0.5308387537673305
+step 375 total and dtiloss 295766000.0 909.6785
+valid auc aupr, 0.6373756114015854 0.6331926561453105 test auc aupr 0.5503787878787878 0.5308387537673305
+step 400 total and dtiloss 295765150.0 907.89667
+valid auc aupr, 0.6392308989711587 0.6337527334370869 test auc aupr 0.5503787878787878 0.5308387537673305
+step 425 total and dtiloss 295764350.0 907.39557
+valid auc aupr, 0.6427728116039804 0.6346677467745188 test auc aupr 0.5503787878787878 0.5308387537673305
+step 450 total and dtiloss 295763780.0 909.22156
+valid auc aupr, 0.6420981615786809 0.6399896852108686 test auc aupr 0.5464759199134199 0.5280710299826621
+step 475 total and dtiloss 295763100.0 907.2455
+valid auc aupr, 0.6414235115533816 0.6391031647519805 test auc aupr 0.5464759199134199 0.5280710299826621
+sample round 3
+Validation: 1
+step 0 total and dtiloss 325222940.0 718.7414
+valid auc aupr, 0.5695732838589981 0.5488831346362875 test auc aupr 0.649225839095969 0.6204112342468611
+step 25 total and dtiloss 296132600.0 990.4449
+valid auc aupr, 0.41659639062236464 0.4445904561963908 test auc aupr 0.649225839095969 0.6204112342468611
+step 50 total and dtiloss 295872540.0 862.80255
+valid auc aupr, 0.5624894585933546 0.5607752141373864 test auc aupr 0.5283724068139652 0.5226026660382137
+step 75 total and dtiloss 295822000.0 897.9016
+valid auc aupr, 0.5498397706189915 0.5492632159356609 test auc aupr 0.5283724068139652 0.5226026660382137
+step 100 total and dtiloss 295801440.0 899.4591
+valid auc aupr, 0.5569235958846349 0.5619037721508614 test auc aupr 0.5380738741777703 0.5364215711111333
+step 125 total and dtiloss 295791550.0 898.3565
+valid auc aupr, 0.5538876707707876 0.5569312824251071 test auc aupr 0.5380738741777703 0.5364215711111333
+step 150 total and dtiloss 295785380.0 906.38916
+valid auc aupr, 0.5474784955304436 0.5527980662486037 test auc aupr 0.5380738741777703 0.5364215711111333
+step 175 total and dtiloss 295780900.0 903.6854
+valid auc aupr, 0.5575982459099341 0.565128877019294 test auc aupr 0.5450969809411368 0.5413021169747572
+step 200 total and dtiloss 295777630.0 902.49866
+valid auc aupr, 0.5604655085174566 0.5632903800609892 test auc aupr 0.5450969809411368 0.5413021169747572
+step 225 total and dtiloss 295774750.0 900.09796
+valid auc aupr, 0.5601281835048069 0.562835614775558 test auc aupr 0.5450969809411368 0.5413021169747572
+step 250 total and dtiloss 295772600.0 903.96454
+valid auc aupr, 0.5626581210996795 0.5718819600011777 test auc aupr 0.5446989374262101 0.5392352034115244
+step 275 total and dtiloss 295771420.0 919.5837
+valid auc aupr, 0.558947545960533 0.5623743907209212 test auc aupr 0.5446989374262101 0.5392352034115244
+step 300 total and dtiloss 295769760.0 909.2336
+valid auc aupr, 0.5602968460111317 0.5619615338154206 test auc aupr 0.5446989374262101 0.5392352034115244
+step 325 total and dtiloss 295768300.0 906.1554
+valid auc aupr, 0.5602968460111317 0.5647085316024179 test auc aupr 0.5446989374262101 0.5392352034115244
+step 350 total and dtiloss 295767400.0 916.6853
+valid auc aupr, 0.5592848709731827 0.5651433510480848 test auc aupr 0.5446989374262101 0.5392352034115244
+step 375 total and dtiloss 295766700.0 899.5431
+valid auc aupr, 0.559959520998482 0.5652977865728662 test auc aupr 0.5446989374262101 0.5392352034115244
+step 400 total and dtiloss 295765980.0 905.47876
+valid auc aupr, 0.5631641086186541 0.5700553946381215 test auc aupr 0.5446989374262101 0.5392352034115244
+step 425 total and dtiloss 295765220.0 907.6184
+valid auc aupr, 0.5618148085680553 0.5691989056477614 test auc aupr 0.5446989374262101 0.5392352034115244
+step 450 total and dtiloss 295764580.0 908.6806
+valid auc aupr, 0.562152133580705 0.5609131333246196 test auc aupr 0.5446989374262101 0.5392352034115244
+step 475 total and dtiloss 295763740.0 909.7016
+valid auc aupr, 0.562152133580705 0.5693108708130956 test auc aupr 0.5446989374262101 0.5392352034115244
+Validation: 2
+step 0 total and dtiloss 325364060.0 712.04675
+valid auc aupr, 0.6255060728744939 0.566396313416746 test auc aupr 0.6168290043290043 0.578459370016269
+step 25 total and dtiloss 296135200.0 980.1831
+valid auc aupr, 0.36538461538461536 0.4232544794308189 test auc aupr 0.6168290043290043 0.578459370016269
+step 50 total and dtiloss 295872580.0 867.6138
+valid auc aupr, 0.5315452091767882 0.5675716516881066 test auc aupr 0.5786593614718615 0.5679608797394147
+step 75 total and dtiloss 295824130.0 905.8204
+valid auc aupr, 0.5219298245614035 0.5655687977720885 test auc aupr 0.5786593614718615 0.5679608797394147
+step 100 total and dtiloss 295803620.0 901.3231
+valid auc aupr, 0.5312078272604589 0.5833718903488438 test auc aupr 0.5829951298701298 0.5724075553431869
+step 125 total and dtiloss 295791330.0 907.45355
+valid auc aupr, 0.5337381916329285 0.5811308312185489 test auc aupr 0.5829951298701298 0.5724075553431869
+step 150 total and dtiloss 295785250.0 916.4321
+valid auc aupr, 0.5399797570850202 0.5873926969644059 test auc aupr 0.5878517316017315 0.5817919786476132
+step 175 total and dtiloss 295780860.0 910.11774
+valid auc aupr, 0.5433535762483132 0.5935701932022961 test auc aupr 0.5885687229437229 0.5821171140221493
+step 200 total and dtiloss 295777730.0 911.65137
+valid auc aupr, 0.5376180836707152 0.5960397929845179 test auc aupr 0.5895698051948052 0.5836941615260667
+step 225 total and dtiloss 295775140.0 915.5233
+valid auc aupr, 0.542004048582996 0.5972268241948953 test auc aupr 0.5897862554112554 0.5824925280360694
+step 250 total and dtiloss 295772930.0 914.84296
+valid auc aupr, 0.5382928475033738 0.6011365724158162 test auc aupr 0.5904288419913419 0.5826009401004635
+step 275 total and dtiloss 295771000.0 913.3667
+valid auc aupr, 0.543353576248313 0.5977953883946006 test auc aupr 0.5904288419913419 0.5826009401004635
+step 300 total and dtiloss 295769400.0 913.0868
+valid auc aupr, 0.5399797570850202 0.5980748046850533 test auc aupr 0.5904288419913419 0.5826009401004635
+step 325 total and dtiloss 295768160.0 912.2131
+valid auc aupr, 0.5413292847503374 0.604968868953403 test auc aupr 0.591220238095238 0.5831125615114017
+step 350 total and dtiloss 295767000.0 915.03516
+valid auc aupr, 0.5398110661268557 0.6013074769139506 test auc aupr 0.591220238095238 0.5831125615114017
+step 375 total and dtiloss 295766100.0 917.8536
+valid auc aupr, 0.541497975708502 0.6004204874674937 test auc aupr 0.591220238095238 0.5831125615114017
+step 400 total and dtiloss 295765150.0 908.906
+valid auc aupr, 0.542004048582996 0.6018256193141243 test auc aupr 0.591220238095238 0.5831125615114017
+step 425 total and dtiloss 295764320.0 911.21533
+valid auc aupr, 0.5418353576248314 0.6053251164868181 test auc aupr 0.5901650432900433 0.5801002181849001
+step 450 total and dtiloss 295763620.0 912.3311
+valid auc aupr, 0.5418353576248313 0.6051194437968925 test auc aupr 0.5901650432900433 0.5801002181849001
+step 475 total and dtiloss 295763070.0 902.1806
+valid auc aupr, 0.5441970310391363 0.6051064303274205 test auc aupr 0.5901650432900433 0.5801002181849001
+Validation: 3
+step 0 total and dtiloss 325002500.0 708.87744
+valid auc aupr, 0.6715587044534412 0.6817683295716112 test auc aupr 0.6089150432900433 0.5731401063179293
+step 25 total and dtiloss 296141280.0 960.0783
+valid auc aupr, 0.4525978407557355 0.4680269748261021 test auc aupr 0.6089150432900433 0.5731401063179293
+step 50 total and dtiloss 295872900.0 864.07227
+valid auc aupr, 0.5173751686909582 0.5561215986332397 test auc aupr 0.6089150432900433 0.5731401063179293
+step 75 total and dtiloss 295823330.0 902.5491
+valid auc aupr, 0.5158569500674763 0.556950330608748 test auc aupr 0.6089150432900433 0.5731401063179293
+step 100 total and dtiloss 295804580.0 903.6654
+valid auc aupr, 0.5291835357624831 0.5781218692855584 test auc aupr 0.6089150432900433 0.5731401063179293
+step 125 total and dtiloss 295792060.0 907.21686
+valid auc aupr, 0.5288461538461539 0.5714447069204847 test auc aupr 0.6089150432900433 0.5731401063179293
+step 150 total and dtiloss 295785400.0 906.80707
+valid auc aupr, 0.5307017543859649 0.5784134934190162 test auc aupr 0.6089150432900433 0.5731401063179293
+step 175 total and dtiloss 295781200.0 903.34894
+valid auc aupr, 0.5310391363022942 0.5741231010096906 test auc aupr 0.6089150432900433 0.5731401063179293
+step 200 total and dtiloss 295778140.0 904.36505
+valid auc aupr, 0.5305330634278004 0.5825650908018916 test auc aupr 0.6089150432900433 0.5731401063179293
+step 225 total and dtiloss 295775550.0 918.28467
+valid auc aupr, 0.5328947368421053 0.5848331534693137 test auc aupr 0.6089150432900433 0.5731401063179293
+step 250 total and dtiloss 295773600.0 915.1713
+valid auc aupr, 0.5253036437246964 0.577025790354436 test auc aupr 0.6089150432900433 0.5731401063179293
+step 275 total and dtiloss 295771800.0 917.9518
+valid auc aupr, 0.5268218623481782 0.5754443860227814 test auc aupr 0.6089150432900433 0.5731401063179293
+step 300 total and dtiloss 295770180.0 911.27637
+valid auc aupr, 0.5286774628879892 0.5820279234051042 test auc aupr 0.6089150432900433 0.5731401063179293
+step 325 total and dtiloss 295768770.0 911.8331
+valid auc aupr, 0.5290148448043185 0.5824197823301644 test auc aupr 0.6089150432900433 0.5731401063179293
+step 350 total and dtiloss 295767580.0 912.5639
+valid auc aupr, 0.5286774628879892 0.580455595761866 test auc aupr 0.6089150432900433 0.5731401063179293
+step 375 total and dtiloss 295766430.0 909.6983
+valid auc aupr, 0.5274966261808367 0.5783952595955573 test auc aupr 0.6089150432900433 0.5731401063179293
+step 400 total and dtiloss 295765600.0 907.82166
+valid auc aupr, 0.527834008097166 0.5812122902206667 test auc aupr 0.6089150432900433 0.5731401063179293
+step 425 total and dtiloss 295764800.0 911.06177
+valid auc aupr, 0.5271592442645074 0.5758105708961174 test auc aupr 0.6089150432900433 0.5731401063179293
+step 450 total and dtiloss 295764030.0 919.2046
+valid auc aupr, 0.5273279352226721 0.5817882745398525 test auc aupr 0.6089150432900433 0.5731401063179293
+step 475 total and dtiloss 295763360.0 915.3191
+valid auc aupr, 0.5278340080971661 0.5824400436657254 test auc aupr 0.6089150432900433 0.5731401063179293
+Validation: 4
+step 0 total and dtiloss 325148480.0 711.007
+valid auc aupr, 0.6437246963562755 0.6545259205559948 test auc aupr 0.5977813852813852 0.565886811973242
+step 25 total and dtiloss 296154940.0 961.4184
+valid auc aupr, 0.4092442645074224 0.4657856964116479 test auc aupr 0.5977813852813852 0.565886811973242
+step 50 total and dtiloss 295872480.0 869.215
+valid auc aupr, 0.5043859649122806 0.49319841588766977 test auc aupr 0.5977813852813852 0.565886811973242
+step 75 total and dtiloss 295826300.0 906.49304
+valid auc aupr, 0.5084345479082322 0.5021247210268145 test auc aupr 0.5977813852813852 0.565886811973242
+step 100 total and dtiloss 295805340.0 900.4442
+valid auc aupr, 0.4979757085020242 0.5054142680071767 test auc aupr 0.5977813852813852 0.565886811973242
+step 125 total and dtiloss 295793280.0 910.18
+valid auc aupr, 0.49240890688259115 0.5009624040733152 test auc aupr 0.5977813852813852 0.565886811973242
+step 150 total and dtiloss 295786050.0 907.9112
+valid auc aupr, 0.4988191632928475 0.5082277682668039 test auc aupr 0.5977813852813852 0.565886811973242
+step 175 total and dtiloss 295781250.0 904.7253
+valid auc aupr, 0.49561403508771934 0.5096652314567569 test auc aupr 0.5977813852813852 0.565886811973242
+step 200 total and dtiloss 295778000.0 912.17865
+valid auc aupr, 0.49544534412955465 0.5063633233193965 test auc aupr 0.5977813852813852 0.565886811973242
+step 225 total and dtiloss 295774820.0 910.85834
+valid auc aupr, 0.4927462887989204 0.5030834449112518 test auc aupr 0.5977813852813852 0.565886811973242
+step 250 total and dtiloss 295772400.0 916.25006
+valid auc aupr, 0.49510796221322534 0.5041722410007203 test auc aupr 0.5977813852813852 0.565886811973242
+step 275 total and dtiloss 295770660.0 915.7978
+valid auc aupr, 0.4925775978407557 0.5054250616576994 test auc aupr 0.5977813852813852 0.565886811973242
+step 300 total and dtiloss 295769250.0 919.2918
+valid auc aupr, 0.49240890688259115 0.500611631268405 test auc aupr 0.5977813852813852 0.565886811973242
+step 325 total and dtiloss 295768000.0 908.42896
+valid auc aupr, 0.4974696356275304 0.5122567874998522 test auc aupr 0.5977813852813852 0.565886811973242
+step 350 total and dtiloss 295766880.0 920.23376
+valid auc aupr, 0.5 0.5145382812406947 test auc aupr 0.5977813852813852 0.565886811973242
+step 375 total and dtiloss 295765820.0 918.0889
+valid auc aupr, 0.4989878542510121 0.5159691778776714 test auc aupr 0.5977813852813852 0.565886811973242
+step 400 total and dtiloss 295764900.0 916.28076
+valid auc aupr, 0.4984817813765182 0.5091836711395028 test auc aupr 0.5977813852813852 0.565886811973242
+step 425 total and dtiloss 295764220.0 910.04675
+valid auc aupr, 0.5037112010796221 0.5194909486836364 test auc aupr 0.5977813852813852 0.565886811973242
+step 450 total and dtiloss 295763460.0 919.74176
+valid auc aupr, 0.49915654520917685 0.5034863400743279 test auc aupr 0.5977813852813852 0.565886811973242
+step 475 total and dtiloss 295762980.0 913.9841
+valid auc aupr, 0.5 0.5111675067244561 test auc aupr 0.5977813852813852 0.565886811973242
+Validation: 5
+step 0 total and dtiloss 325354800.0 711.77075
+valid auc aupr, 0.5342442645074225 0.5266327010591251 test auc aupr 0.6106872294372294 0.5800775869502921
+step 25 total and dtiloss 296150200.0 1013.7037
+valid auc aupr, 0.398110661268556 0.4693191491719635 test auc aupr 0.6106872294372294 0.5800775869502921
+step 50 total and dtiloss 295872350.0 863.473
+valid auc aupr, 0.5529689608636977 0.5535882849746965 test auc aupr 0.5679856601731601 0.5570325060813416
+step 75 total and dtiloss 295824160.0 910.63245
+valid auc aupr, 0.5511133603238867 0.5472211782919362 test auc aupr 0.5679856601731601 0.5570325060813416
+step 100 total and dtiloss 295804770.0 897.51685
+valid auc aupr, 0.5560053981106613 0.5491402471436663 test auc aupr 0.5679856601731601 0.5570325060813416
+step 125 total and dtiloss 295794020.0 904.8224
+valid auc aupr, 0.5688259109311741 0.5692856891566186 test auc aupr 0.5712188852813853 0.5491032511719863
+step 150 total and dtiloss 295786300.0 910.4575
+valid auc aupr, 0.5684885290148448 0.5650337737796625 test auc aupr 0.5712188852813853 0.5491032511719863
+step 175 total and dtiloss 295780900.0 909.9503
+valid auc aupr, 0.571693657219973 0.5685160055074221 test auc aupr 0.5712188852813853 0.5491032511719863
+step 200 total and dtiloss 295777280.0 912.44037
+valid auc aupr, 0.5684885290148448 0.5656811650231814 test auc aupr 0.5712188852813853 0.5491032511719863
+step 225 total and dtiloss 295774600.0 914.1594
+valid auc aupr, 0.5708502024291499 0.5728012772015911 test auc aupr 0.5674648268398268 0.5489394165868346
+step 250 total and dtiloss 295772400.0 913.98987
+valid auc aupr, 0.5681511470985156 0.5598174127403933 test auc aupr 0.5674648268398268 0.5489394165868346
+step 275 total and dtiloss 295770780.0 907.29877
+valid auc aupr, 0.5671390013495278 0.5673092067811674 test auc aupr 0.5674648268398268 0.5489394165868346
+step 300 total and dtiloss 295769340.0 911.99585
+valid auc aupr, 0.5701754385964912 0.5708872516409739 test auc aupr 0.5674648268398268 0.5489394165868346
+step 325 total and dtiloss 295768220.0 917.3041
+valid auc aupr, 0.5730431848852902 0.57476797065173 test auc aupr 0.5699404761904762 0.5510405304450258
+step 350 total and dtiloss 295767140.0 913.7803
+valid auc aupr, 0.5701754385964912 0.5717878605221667 test auc aupr 0.5699404761904762 0.5510405304450258
+step 375 total and dtiloss 295766300.0 912.7978
+valid auc aupr, 0.5679824561403509 0.5666653557076337 test auc aupr 0.5699404761904762 0.5510405304450258
+step 400 total and dtiloss 295765570.0 901.54663
+valid auc aupr, 0.5637651821862348 0.5665543560932402 test auc aupr 0.5699404761904762 0.5510405304450258
+step 425 total and dtiloss 295764700.0 919.92316
+valid auc aupr, 0.5708502024291499 0.5697718871291657 test auc aupr 0.5699404761904762 0.5510405304450258
+step 450 total and dtiloss 295764130.0 917.5085
+valid auc aupr, 0.5671390013495277 0.5688231296216784 test auc aupr 0.5699404761904762 0.5510405304450258
+step 475 total and dtiloss 295763600.0 918.80066
+valid auc aupr, 0.5644399460188935 0.5630367033572168 test auc aupr 0.5699404761904762 0.5510405304450258

@@ -1,0 +1,22 @@
+#!/bin/bash
+##ENVIRONMENT SETTINGS; CHANGE WITH CAUTION
+#SBATCH --export=NONE                #Do not propagate environment
+#SBATCH --get-user-env=L             #Replicate login environment
+
+##NECESSARY JOB SPECIFICATIONS
+#SBATCH --job-name=gae_ten
+#SBATCH --time=02:00:00              
+#SBATCH --ntasks=28
+#SBATCH --mem=50G                  
+#SBATCH --output=Outputs/output_traning_gae_ten
+#SBATCH --gres=gpu:1                #Request 1 GPU per node can be 1 or 2
+#SBATCH --partition=gpu
+
+##OPTIONAL JOB SPECIFICATIONS
+#SBATCH --account=122821646257       #Set billing account to 
+
+#First Executable Line
+module load Anaconda/3-5.0.0.1
+source activate GVAE
+python train_10FoldCV_gvae.py --m gae --r ten
+source deactivate

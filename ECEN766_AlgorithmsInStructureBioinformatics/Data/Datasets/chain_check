@@ -1,0 +1,331 @@
+>d1jjcb1 a.6.1.1 (B:1-38,B:152-190) Domains B1 and B5 of PheRS-beta, PheT {Thermus thermophilus [TaxId: 274]}
+>g1o7d.1 a.8.3.1 (B:385-422,C:431-487) Lysosomal alpha-mannosidase {Cow (Bos taurus) [TaxId: 9913]}
+>g1avo.1 a.24.8.1 (A:,B:) Proteasome activator reg(alpha) {Human (Homo sapiens) [TaxId: 9606]}
+>d1xzpa1 a.24.25.1 (A:118-211,A:372-450) TrmE connector domain {Thermotoga maritima [TaxId: 2336]}
+>g1pnb.1 a.52.1.3 (A:,B:) Napin BNIb {Rape (Brassica napus) [TaxId: 3708]}
+>g1dnu.1 a.93.1.2 (A:,C:) Myeloperoxidase {Human (Homo sapiens) [TaxId: 9606]}
+>d1w6ka1 a.102.4.2 (A:6-99,A:379-732) Lanosterol synthase {Human (Homo sapiens) [TaxId: 9606]}
+>d2sqca1 a.102.4.2 (A:8-36,A:308-630) Squalene-hopene cyclase {Alicyclobacillus acidocaldarius [TaxId: 405212]}
+>d1bvp11 a.115.1.1 (1:1-120,1:255-349) BTV vp7 {Bluetongue virus [TaxId: 40051]}
+>d1qhda1 a.115.1.2 (A:1-148,A:333-397) vp6, the major capsid protein of group A rotavirus {Bovine rotavirus [TaxId: 10927]}
+>d1uf2c1 a.115.1.3 (C:1-147,C:301-421) RDV p8 {Rice dwarf virus [TaxId: 10991]}
+>d1dcea1 a.118.6.1 (A:1-241,A:351-443) Rab geranylgeranyltransferase alpha-subunit, N-terminal domain {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>d1kp8a1 a.129.1.1 (A:2-136,A:410-526) GroEL, E domain {Escherichia coli [TaxId: 562]}
+>d1q3qa1 a.129.1.2 (A:9-145,A:406-526) Thermosome, E domain {Thermococcus sp. ks-1, alpha chain [TaxId: 79679]}
+>d1m5ya1 a.223.1.2 (A:25-164,A:395-427) Porin chaperone SurA, peptide-binding domain {Escherichia coli [TaxId: 562]}
+>d1txvb5 b.1.15.1 (B:58-106,B:355-440) Hybrid domain of integrin beta {Human (Homo sapiens) [TaxId: 9606]}
+>g2a73.1 b.1.29.7 (A:535-577,B:746-806) Complement C3 MG6 {Human (Homo sapiens) [TaxId: 9606]}
+>d3cu7a6 b.1.29.7 (A:565-606,A:770-822) Complement C5 MG6 {Human (Homo sapiens) [TaxId: 9606]}
+>d1e2wa1 b.2.6.1 (A:1-168,A:233-251) Cytochrome f, large domain {Green alga (Chlamydomonas reinhardtii) [TaxId: 3055]}
+>d1m2oa2 b.2.8.1 (A:2-44,A:391-523) Sec23 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1pd0a2 b.2.8.1 (A:133-215,A:553-646) Sec24 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1nlta1 b.4.1.1 (A:110-138,A:213-257) Mitochondrial protein import protein mas5 (Hsp40, Ydj1), C-terminal domain {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>g3n55.1 b.6.1.7 (A:,B:) Hypothetical protein SO1698 {Shewanella oneidensis [TaxId: 70863]}
+>d2a73b6 b.23.4.1 (B:912-962,B:1269-1330) Complement C3 CUB domain {Human (Homo sapiens) [TaxId: 9606]}
+>d3cu7ad b.23.4.1 (A:932-981,A:1307-1369) Complement C5 CUB domain {Human (Homo sapiens) [TaxId: 9606]}
+>d1jhna4 b.29.1.12 (A:61-262,A:412-458) Calnexin {Dog (Canis familiaris) [TaxId: 9615]}
+>g1y43.1 b.29.1.20 (A:1-32,B:3-173) Aspergillopepsin II {Aspergillus niger [TaxId: 5061]}
+>g1o7d.2 b.30.5.6 (C:488-585,D:603-875,E:885-1007) Lysosomal alpha-mannosidase {Cow (Bos taurus) [TaxId: 9913]}
+>d1gu7a1 b.35.1.2 (A:23-160,A:350-386) 2,4-dienoyl-CoA reductase {Yeast (Candida tropicalis) [TaxId: 5482]}
+>d1h2ba1 b.35.1.2 (A:17-154,A:327-359) Alcohol dehydrogenase {Aeropyrum pernix [TaxId: 56636]}
+>d2jhfa1 b.35.1.2 (A:1-163,A:340-374) Alcohol dehydrogenase {Horse (Equus caballus) [TaxId: 9796]}
+>d1jvba1 b.35.1.2 (A:1-143,A:314-347) Alcohol dehydrogenase {Sulfolobus solfataricus [TaxId: 2287]}
+>d1jqba1 b.35.1.2 (A:1001-1139,A:1314-1351) Bacterial secondary alcohol dehydrogenase {Clostridium beijerinckii [TaxId: 1520]}
+>d1f8fa1 b.35.1.2 (A:4-162,A:337-371) Benzyl alcohol dehydrogenase {Acinetobacter calcoaceticus [TaxId: 471]}
+>d1piwa1 b.35.1.2 (A:1-152,A:321-360) Cinnamyl alcohol dehydrogenase, ADH6 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1kola1 b.35.1.2 (A:2-160,A:356-397) Formaldehyde dehydrogenase {Pseudomonas putida [TaxId: 303]}
+>d1vj0a1 b.35.1.2 (A:2-155,A:338-367) Hypothetical protein TM0436 {Thermotoga maritima [TaxId: 2336]}
+>d1uufa1 b.35.1.2 (A:3-144,A:313-349) Hypothetical protein YahK {Escherichia coli [TaxId: 562]}
+>d1o89a1 b.35.1.2 (A:2-115,A:293-323) Hypothetical protein YhdH {Escherichia coli [TaxId: 562]}
+>d1pl8a1 b.35.1.2 (A:1-145,A:317-356) Ketose reductase (sorbitol dehydrogenase) {Human (Homo sapiens) [TaxId: 9606]}
+>d1v3va1 b.35.1.2 (A:1-112,A:295-329) Leukotriene b4 12-hydroxydehydrogenase/prostaglandin 15-keto reductase {Guinea pig (Cavia porcellus) [TaxId: 10141]}
+>d1vj1a1 b.35.1.2 (A:1-124,A:312-351) Putative zinc-binding alcohol dehydrogenase {Mouse (Mus musculus) [TaxId: 10090]}
+>d1qora1 b.35.1.2 (A:2-112,A:292-327) Quinone oxidoreductase {Escherichia coli [TaxId: 562]}
+>d1yb5a1 b.35.1.2 (A:6-120,A:295-329) Quinone oxidoreductase {Human (Homo sapiens) [TaxId: 9606]}
+>d1iz0a1 b.35.1.2 (A:1-98,A:270-302) Quinone oxidoreductase {Thermus thermophilus [TaxId: 274]}
+>d1iyjb4 b.40.4.3 (B:2732-2760,B:2898-2979) OB-fold domains of BRCA2 {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>g1r8o.1 b.42.4.1 (A:,B:) Two-chain trypsin inhibitor {Balsam copaiba (Copaifera langsdorffii) [TaxId: 280048]}
+>g1fiw.1 b.47.1.2 (L:,A:) Beta-acrosin {Sheep (Ovis aries) [TaxId: 9940]}
+>g1shh.1 b.47.1.2 (A:,B:) Thrombin {Human (Homo sapiens) [TaxId: 9606]}
+>d1bd0a1 b.49.2.2 (A:2-11,A:245-382) Alanine racemase {Bacillus stearothermophilus [TaxId: 1422]}
+>d1rcqa1 b.49.2.2 (A:1-7,A:234-357) Alanine racemase {Pseudomonas aeruginosa [TaxId: 287]}
+>d1vfha1 b.49.2.2 (A:3-12,A:250-378) Alanine racemase {Streptomyces lavendulae [TaxId: 1914]}
+>d3anua1 b.49.2.2 (A:1-18,A:263-376) D-serine dehydratase {Chicken (Gallus gallus) [TaxId: 9031]}
+>d1knwa1 b.49.2.3 (A:2-31,A:279-420) Diaminopimelate decarboxylase LysA {Escherichia coli [TaxId: 562]}
+>d1twia1 b.49.2.3 (A:15-49,A:314-448) Diaminopimelate decarboxylase LysA {Methanococcus jannaschii [TaxId: 2190]}
+>d1hkva1 b.49.2.3 (A:2-45,A:311-447) Diaminopimelate decarboxylase LysA {Mycobacterium tuberculosis [TaxId: 1773]}
+>d7odca1 b.49.2.3 (A:2-43,A:284-418) Eukaryotic ornithine decarboxylase (ODC) {Mouse (Mus musculus) [TaxId: 10090]}
+>d2adza1 b.55.1.1 (A:1-43,A:117-178) Alpha-1-syntrophin {Mouse (Mus musculus) [TaxId: 10090]}
+>d2fjla1 b.55.1.1 (A:1-37,A:87-150) Phosphoinositide phospholipase C, PLC-gamma-1 {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>d2caya1 b.55.1.12 (A:2-99,A:252-282) Vacuolar protein sorting protein 36, VPS36 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1w0pa3 b.68.1.1 (A:217-346,A:544-777) Vibrio cholerae sialidase {Vibrio cholerae [TaxId: 666]}
+>d2b5la2 b.69.4.3 (A:1-13,A:355-392,A:708-1043) DDB1 {Human (Homo sapiens) [TaxId: 9606]}
+>d1qw9a1 b.71.1.2 (A:5-17,A:385-501) Alpha-l-arabinofuranosidase {Bacillus stearothermophilus [TaxId: 1422]}
+>d1w91a1 b.71.1.2 (A:4-13,A:361-502) Beta-D-xylosidase {Bacillus stearothermophilus [TaxId: 1422]}
+>d2v3da1 b.71.1.2 (A:1-77,A:432-497) Glucosylceramidase {Human (Homo sapiens) [TaxId: 9606]}
+>d2y24a1 b.71.1.2 (A:31-43,A:321-413) Glycosyl hydrolase family 5 xylanase {Erwinia chrysanthemi [TaxId: 556]}
+>g1ugw.1 b.77.3.1 (B:,A:) Jacalin {Jackfruit (Artocarpus heterophyllus) [TaxId: 3489]}
+>g1dgw.1 b.82.1.2 (X:,Y:) Seed storage 7S protein {Jack bean (Canavalia ensiformis), canavalin/vinculin [TaxId: 3823]}
+>d1dq3a1 b.86.1.2 (A:1-128,A:415-454) PI-Pfui intein {Pyrococcus furiosus [TaxId: 2261]}
+>d4ubpc1 b.92.1.1 (C:1-131,C:435-483) alpha-Subunit of urease {Bacillus pasteurii [TaxId: 1474]}
+>d1ra0a1 b.92.1.2 (A:4-55,A:376-426) Cytosine deaminase {Escherichia coli [TaxId: 562]}
+>d1gkpa1 b.92.1.3 (A:2-54,A:390-459) D-hydantoinase {Thermus sp. [TaxId: 275]}
+>d1kcxa1 b.92.1.3 (A:15-66,A:401-490) Dihydropyrimidinase related protein-1 {Mouse (Mus musculus) [TaxId: 10090]}
+>d2ftwa1 b.92.1.3 (A:7-59,A:394-490) Dihydropyrimidine amidohydrolase Pyd2 {Slime mold (Dictyostelium discoideum) [TaxId: 44689]}
+>d2fvka1 b.92.1.3 (A:2-56,A:441-541) Dihydropyrimidine amidohydrolase Pyd2 {Yeast (Saccharomyces kluyveri) [TaxId: 4934]}
+>d1gkra1 b.92.1.3 (A:1-54,A:380-451) L-hydantoinase {Arthrobacter aurescens [TaxId: 43663]}
+>d1xrta1 b.92.1.3 (A:1-55,A:366-422) Two-domain dihydroorotase {Aquifex aeolicus [TaxId: 63363]}
+>d2ooda1 b.92.1.4 (A:4-72,A:398-467) Guanine deaminase {Bradyrhizobium japonicum [TaxId: 375]}
+>d2i9ua1 b.92.1.4 (A:9-66,A:377-427) Guanine deaminase {Clostridium acetobutylicum [TaxId: 1488]}
+>d4aqla1 b.92.1.4 (A:9-75,A:389-450) Guanine deaminase {Human (Homo sapiens) [TaxId: 9606]}
+>d2paja1 b.92.1.4 (A:10-69,A:406-484) Hypothetical protein GOS_1943094 {Environmental samples [TaxId: 33858]}
+>d1p1ma1 b.92.1.4 (A:1-49,A:331-404) Hypothetical protein TM0936 {Thermotoga maritima [TaxId: 2336]}
+>d2vhla1 b.92.1.5 (A:3-57,A:359-394) N-acetylglucosamine-6-phosphate deacetylase, NagA {Bacillus subtilis [TaxId: 1423]}
+>d1yrra1 b.92.1.5 (A:1-53,A:351-382) N-acetylglucosamine-6-phosphate deacetylase, NagA {Escherichia coli [TaxId: 562]}
+>d1o12a1 b.92.1.5 (A:1-43,A:332-364) N-acetylglucosamine-6-phosphate deacetylase, NagA {Thermotoga maritima [TaxId: 2336]}
+>d1po9a1 b.92.1.7 (A:1-62,A:347-388) Isoaspartyl dipeptidase {Escherichia coli [TaxId: 562]}
+>d2icsa1 b.92.1.8 (A:4-54,A:322-371) Putative adenine deaminase EF0837 {Enterococcus faecalis [TaxId: 1351]}
+>d3mkva1 b.92.1.9 (A:1-57,A:369-414) Uncharacterized protein EAJ56179 {Unidentified organism [TaxId: 32644]}
+>d2qs8a1 b.92.1.9 (A:7-63,A:374-410) Xaa-Pro dipeptidase {Alteromonas macleodii [TaxId: 28108]}
+>d3be7a1 b.92.1.9 (A:3-56,A:360-398) Zn-dependent arginine carboxypeptidase {Unidentified organism [TaxId: 32644]}
+>d2puza1 b.92.1.10 (A:17-79,A:381-420) Imidazolonepropionase {Agrobacterium tumefaciens [TaxId: 358]}
+>d2bb0a1 b.92.1.10 (A:3-73,A:374-415) Imidazolonepropionase {Bacillus subtilis [TaxId: 1423]}
+>d2q09a1 b.92.1.10 (A:4-65,A:367-407) Probable 4-imidazolone-5-propanoate amidohydrolase GOS_1928421 {Environmental samples [TaxId: 33858]}
+>d2p9ba1 b.92.1.10 (A:9-70,A:395-450) Uncharacterized protein BL1453 {Bifidobacterium longum [TaxId: 216816]}
+>d2imra1 b.92.1.11 (A:34-90,A:399-418) Hypothetical protein DR0824 {Deinococcus radiodurans [TaxId: 1299]}
+>g1ko6.1 b.119.1.1 (A:,B:) C-terminal autoproteolytic domain of nucleoporin nup98 {Human (Homo sapiens) [TaxId: 9606]}
+>g1qqp.1 b.121.4.1 (4:,2:) Aphthovirus (Foot-and-mouth disease virus) coat proteins {FMDV (Foot-and-mouth disease virus), strain bfs, 1860 [TaxId: 12110]}
+>g1b35.1 b.121.4.1 (D:,C:) Insect picorna-like virus coat proteins {Cricket paralysis virus [TaxId: 12136]}
+>g1aym.1 b.121.4.1 (4:,2:) Rhinovirus coat proteins {Human rhinovirus 16, (HRV-16) [TaxId: 31708]}
+>g1tme.1 b.121.4.1 (4:,2:) Theilovirus capsid proteins {Theiler's murine encephalomyelitis virus, strain da [TaxId: 12124]}
+>g1f8v.1 b.121.4.4 (A:,D:) Alphanodavirus capsid protein {Pariacoto virus [TaxId: 103782]}
+>d1jr1b1 c.1.5.1 (B:11-112,B:233-514) Inosine monophosphate dehydrogenase (IMPDH) {Chinese hamster (Cricetulus griseus) [TaxId: 10029]}
+>d1mwfa1 c.1.5.1 (A:2-99,A:231-494) Inosine monophosphate dehydrogenase (IMPDH) {Tritrichomonas foetus [TaxId: 5724]}
+>d1w9pa1 c.1.8.5 (A:39-298,A:361-433) Chitinase 1 {Aspergillus fumigatus [TaxId: 5085]}
+>d1edqa2 c.1.8.5 (A:133-443,A:517-563) Chitinase A, catalytic domain {Serratia marcescens [TaxId: 615]}
+>d1itxa1 c.1.8.5 (A:33-337,A:410-451) Chitinase A1 {Bacillus circulans [TaxId: 1397]}
+>d1goia2 c.1.8.5 (A:3-291,A:380-446) Chitinase B, catalytic domain {Serratia marcescens [TaxId: 615]}
+>d1vf8a1 c.1.8.5 (A:1-245,A:316-373) Chitinase-like lectin ym1, saccharide binding domain {Mouse (Mus musculus) [TaxId: 10090]}
+>d1jnda1 c.1.8.5 (A:2-278,A:371-420) Imaginal disc growth factor-2 {Fruit fly (Drosophila melanogaster) [TaxId: 7227]}
+>d1kfwa1 c.1.8.5 (A:10-327,A:389-444) Psychrophilic chitinase B {Arthrobacter sp., tad20 [TaxId: 1667]}
+>d4ubpc2 c.1.9.2 (C:132-434,C:484-570) alpha-subunit of urease, catalytic domain {Bacillus pasteurii [TaxId: 1474]}
+>d3hqna1 c.1.12.1 (A:1-87,A:187-357) Pyruvate kinase, N-terminal domain {Trypanosome (Leishmania mexicana) [TaxId: 5665]}
+>d1q0qa2 c.2.1.3 (A:1-125,A:275-300) 1-deoxy-D-xylulose-5-phosphate reductoisomerase {Escherichia coli [TaxId: 562]}
+>d1nvmb1 c.2.1.3 (B:1-131,B:287-312) Acetaldehyde dehydrogenase (acylating) {Pseudomonas sp. [TaxId: 306]}
+>d1t4ba1 c.2.1.3 (A:1-133,A:355-367) Aspartate beta-semialdehyde dehydrogenase {Escherichia coli [TaxId: 562]}
+>d4r3na1 c.2.1.3 (A:2-127,A:330-358) Aspartate beta-semialdehyde dehydrogenase {Pneumococcus (Streptococcus pneumoniae) [TaxId: 1313]}
+>d1lc0a1 c.2.1.3 (A:2-128,A:247-291) Biliverdin reductase {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>d2dapa1 c.2.1.3 (A:1-118,A:269-320) Diaminopimelic acid dehydrogenase (DAPDH) {Corynebacterium glutamicum [TaxId: 1718]}
+>d1drua1 c.2.1.3 (A:4-130,A:241-273) Dihydrodipicolinate reductase {Escherichia coli [TaxId: 562]}
+>d1p9la1 c.2.1.3 (A:1-105,A:215-245) Dihydrodipicolinate reductase {Mycobacterium tuberculosis [TaxId: 1773]}
+>d1vm6a3 c.2.1.3 (A:1-96,A:183-214) Dihydrodipicolinate reductase {Thermotoga maritima [TaxId: 2336]}
+>d2nvwa1 c.2.1.3 (A:-11-154,A:374-457) Galactose/lactose metabolism regulatory protein GAL80 {Milk yeast (Kluyveromyces lactis) [TaxId: 28985]}
+>d1qkia1 c.2.1.3 (A:12-199,A:435-449) Glucose 6-phosphate dehydrogenase, N-terminal domain {Human (Homo sapiens) [TaxId: 9606]}
+>d1h9aa1 c.2.1.3 (A:1-181,A:413-426) Glucose 6-phosphate dehydrogenase, N-terminal domain {Leuconostoc mesenteroides [TaxId: 1245]}
+>d1h6da1 c.2.1.3 (A:51-212,A:375-433) Glucose-fructose oxidoreductase, N-terminal domain {Zymomonas mobilis [TaxId: 542]}
+>d3cmco1 c.2.1.3 (O:0-148,O:313-333) Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) {Bacillus stearothermophilus, nca 1503 [TaxId: 1422]}
+>d1cf2o1 c.2.1.3 (O:1-138,O:304-336) Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) {Methanothermus fervidus [TaxId: 2180]}
+>d1ebua1 c.2.1.3 (A:2-150,A:341-359) Homoserine dehydrogenase {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1zh8a1 c.2.1.3 (A:4-131,A:276-328) Hypothetical protein TM0312 {Thermotoga maritima [TaxId: 2336]}
+>d1vjpa3 c.2.1.3 (A:1-209,A:317-381) Hypothetical protein TM1419 {Thermotoga maritima [TaxId: 2336]}
+>d1j5pa4 c.2.1.3 (A:1-108,A:220-241) Hypothetical protein TM1643 {Thermotoga maritima [TaxId: 2336]}
+>d3qvsa1 c.2.1.3 (A:1-227,A:333-392) Myo-inositol 1-phosphate synthase {Archaeoglobus fulgidus [TaxId: 2234]}
+>d1p1ja1 c.2.1.3 (A:9-322,A:438-533) Myo-inositol 1-phosphate synthase {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1gr0a1 c.2.1.3 (A:14-200,A:312-367) Myo-inositol 1-phosphate synthase {Mycobacterium tuberculosis [TaxId: 1773]}
+>d2g17a1 c.2.1.3 (A:1-153,A:309-334) N-acetyl-gamma-glutamyl-phosphate reductase ArgC {Salmonella typhimurium [TaxId: 90371]}
+>d1vkna1 c.2.1.3 (A:1-144,A:308-339) N-acetyl-gamma-glutamyl-phosphate reductase ArgC {Thermotoga maritima [TaxId: 2336]}
+>d2q4ea1 c.2.1.3 (A:6-133,A:305-360) Probable oxidoreductase At4g09670 {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+>d1xeaa1 c.2.1.3 (A:4-122,A:267-312) Putative oxidoreductase VCA1048 {Vibrio cholerae [TaxId: 666]}
+>d1e5qa1 c.2.1.3 (A:2-124,A:392-450) Saccharopine reductase {Fungus (Magnaporthe grisea) [TaxId: 148305]}
+>d2hjsa1 c.2.1.3 (A:3-129,A:320-336) Usg-1 protein homolog PA3116 {Pseudomonas aeruginosa [TaxId: 287]}
+>d1tlta1 c.2.1.3 (A:5-127,A:268-308) Virulence factor MviM {Escherichia coli [TaxId: 562]}
+>d1n4wa1 c.3.1.2 (A:9-318,A:451-507) Cholesterol oxidase of GMC family {Streptomyces sp. [TaxId: 1931]}
+>d2voua1 c.3.1.2 (A:2-163,A:292-394) Dihydroxypyridine hydroxylase DhpH {Arthrobacter nicotinovorans [TaxId: 29320]}
+>d2gmha1 c.3.1.2 (A:4-236,A:336-482) Electron transfer flavoprotein-ubiquinone oxidoreductase, EFT-QO {Pig (Sus scrofa) [TaxId: 9823]}
+>d1kdga1 c.3.1.2 (A:215-512,A:694-755) Flavoprotein domain of flavocytochrome cellobiose dehydrogenase (CDH), FAD-binding domain {Basidomycetes fungus (Phanerochaete chrysosporium) [TaxId: 5306]}
+>d3qvpa1 c.3.1.2 (A:3-324,A:521-583) Glucose oxidase {Aspergillus niger [TaxId: 5061]}
+>d1ryia1 c.3.1.2 (A:1-218,A:307-364) Glycine oxidase ThiO {Bacillus sp. [TaxId: 1409]}
+>d1ju2a1 c.3.1.2 (A:1-293,A:464-521) Hydroxynitrile lyase {Almond (Prunus dulcis) [TaxId: 3755]}
+>d2iida1 c.3.1.2 (A:4-319,A:433-486) L-aminoacid oxidase {Malayan pit viper (Calloselasma rhodostoma) [TaxId: 8717]}
+>d2dw4a2 c.3.1.2 (A:274-654,A:764-831) Lysine-specific histone demethylase 1, LSD1 {Human (Homo sapiens) [TaxId: 9606]}
+>d1s3ea1 c.3.1.2 (A:3-289,A:402-501) Monoamine oxidase B {Human (Homo sapiens) [TaxId: 9606]}
+>d3c96a1 c.3.1.2 (A:4-182,A:294-402) Monooxygenase PhzS {Pseudomonas aeruginosa [TaxId: 287]}
+>d1pj5a2 c.3.1.2 (A:4-219,A:339-427) N,N-dimethylglycine oxidase {Arthrobacter globiformis [TaxId: 1665]}
+>d1d7la1 c.3.1.2 (A:1-173,A:276-394) p-Hydroxybenzoate hydroxylase, PHBH {Pseudomonas aeruginosa [TaxId: 287]}
+>d1pn0a1 c.3.1.2 (A:1-240,A:342-461) Phenol hydroxylase {Soil-living yeast (Trichosporon cutaneum) [TaxId: 5554]}
+>d1b5qa1 c.3.1.2 (A:5-293,A:406-463) Polyamine oxidase {Maize (Zea mays) [TaxId: 4577]}
+>d2ivda1 c.3.1.2 (A:10-306,A:415-464) Protoporphyrinogen oxidase {Myxococcus xanthus [TaxId: 34]}
+>d1seza1 c.3.1.2 (A:13-329,A:442-497) Protoporphyrinogen oxidase {Tobacco (Nicotiana tabacum) [TaxId: 4097]}
+>d2f5va1 c.3.1.2 (A:43-354,A:553-619) Pyranose 2-oxidase {White-rot fungus (Peniophora sp. SG) [TaxId: 204723]}
+>d2gf3a1 c.3.1.2 (A:1-217,A:322-385) Sarcosine oxidase {Bacillus sp., strain b0618 [TaxId: 1409]}
+>d1d5ta1 c.3.1.3 (A:-2-291,A:389-431) Guanine nucleotide dissociation inhibitor, GDI {Cow (Bos taurus) [TaxId: 9913]}
+>d1vg0a1 c.3.1.3 (A:3-444,A:558-606) Rab escort protein 1 {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>d1jnra2 c.3.1.4 (A:2-256,A:402-502) Adenylylsulfate reductase A subunit {Archaeoglobus fulgidus [TaxId: 2234]}
+>d1y0pa2 c.3.1.4 (A:103-359,A:506-568) Flavocytochrome c3 (respiratory fumarate reductase) {Shewanella frigidimarina [TaxId: 56812]}
+>d1kf6a2 c.3.1.4 (A:0-225,A:358-442) Fumarate reductase {Escherichia coli [TaxId: 562]}
+>d2bs2a2 c.3.1.4 (A:1-250,A:372-457) Fumarate reductase {Wolinella succinogenes [TaxId: 844]}
+>d1chua2 c.3.1.4 (A:2-237,A:354-422) L-aspartate oxidase {Escherichia coli [TaxId: 562]}
+>d2wdqa1 c.3.1.4 (A:1-235,A:356-450) Succinate dehydogenase {Escherichia coli [TaxId: 562]}
+>d1fl2a1 c.3.1.5 (A:212-325,A:452-521) Alkyl hydroperoxide reductase subunit F (AhpF), C-terminal domains {Escherichia coli [TaxId: 562]}
+>d1m6ia1 c.3.1.5 (A:128-263,A:401-477) Apoptosis-inducing factor (AIF) {Human (Homo sapiens) [TaxId: 9606]}
+>d1v59a1 c.3.1.5 (A:1-160,A:283-355) Dihydrolipoamide dehydrogenase {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1xdia1 c.3.1.5 (A:2-161,A:276-348) Dihydrolipoamide dehydrogenase {Mycobacterium tuberculosis [TaxId: 1773]}
+>d1ojta1 c.3.1.5 (A:117-275,A:401-470) Dihydrolipoamide dehydrogenase {Neisseria meningitidis [TaxId: 487]}
+>d1lvla1 c.3.1.5 (A:1-150,A:266-335) Dihydrolipoamide dehydrogenase {Pseudomonas putida [TaxId: 303]}
+>d2gv8a1 c.3.1.5 (A:3-180,A:288-444) Flavin-dependent monoxygenase SPBP16F5.08c {Fission yeast (Schizosaccharomyces pombe) [TaxId: 4896]}
+>d1fcda1 c.3.1.5 (A:1-114,A:256-327) Flavocytochrome c sulfide dehydrogenase, FCSD, flavin-binding subunit {Chromatium vinosum [TaxId: 1049]}
+>d3dk9a1 c.3.1.5 (A:17-165,A:291-363) Glutathione reductase {Human (Homo sapiens) [TaxId: 9606]}
+>d1h6va1 c.3.1.5 (A:10-170,A:293-366) Mammalian thioredoxin reductase {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>d1xhca1 c.3.1.5 (A:2-103,A:226-289) NADH oxidase /nitrite reductase {Pyrococcus furiosus [TaxId: 2261]}
+>d1nhpa1 c.3.1.5 (A:1-119,A:243-321) NADH peroxidase {Enterococcus faecalis [TaxId: 1351]}
+>d1mo9a1 c.3.1.5 (A:2-192,A:314-383) NADH-dependent 2-ketopropyl coenzyme M oxidoreductase/carboxylase {Xanthobacter sp., py2 [TaxId: 35809]}
+>d2gqwa1 c.3.1.5 (A:6-115,A:237-308) NADH-dependent ferredoxin reductase, BphA4 {Pseudomonas sp., KKS102 [TaxId: 306]}
+>d1w4xa1 c.3.1.5 (A:10-154,A:390-542) Phenylacetone monooxygenase {Thermobifida fusca [TaxId: 2021]}
+>d1q1ra1 c.3.1.5 (A:2-114,A:248-319) Putidaredoxin reductase {Pseudomonas putida [TaxId: 303]}
+>d1trba1 c.3.1.5 (A:1-118,A:245-316) Thioredoxin reductase {Escherichia coli [TaxId: 562]}
+>d1feca1 c.3.1.5 (A:1-169,A:287-357) Trypanothione reductase {Crithidia fasciculata [TaxId: 5656]}
+>d2i0za1 c.3.1.8 (A:1-192,A:362-420) Flavoprotein BC4706 {Bacillus cereus [TaxId: 1396]}
+>d2gqfa1 c.3.1.8 (A:1-194,A:343-401) Hypothetical protein HI0933 {Haemophilus influenzae [TaxId: 727]}
+>d1ps9a3 c.4.1.1 (A:331-465,A:628-671) 2,4-dienoyl-CoA reductase, middle domain {Escherichia coli [TaxId: 562]}
+>d1cjca2 c.4.1.1 (A:6-106,A:332-460) Adrenodoxin reductase of mitochondrial p450 systems {Cow (Bos taurus) [TaxId: 9913]}
+>d1gtea4 c.4.1.1 (A:184-287,A:441-532) Dihydropyrimidine dehydrogenase, domain 2 {Pig (Sus scrofa) [TaxId: 9823]}
+>d1lqua2 c.4.1.1 (A:2-108,A:325-456) Ferredoxin:NADP reductase FprA {Mycobacterium tuberculosis [TaxId: 1773]}
+>d1o94a3 c.4.1.1 (A:341-489,A:646-729) Trimethylamine dehydrogenase, middle domain {Methylophilus methylotrophus, w3a1 [TaxId: 17]}
+>d1an9a1 c.4.1.2 (A:1-194,A:288-340) D-aminoacid oxidase, N-terminal domain {Pig (Sus scrofa) [TaxId: 9823]}
+>d1c0pa1 c.4.1.2 (A:1001-1193,A:1289-1361) D-aminoacid oxidase, N-terminal domain {Rhodotorula gracilis [TaxId: 5286]}
+>d1i8ta1 c.4.1.3 (A:1-244,A:314-367) UDP-galactopyranose mutase, N-terminal domain {Escherichia coli [TaxId: 562]}
+>d2bi7a1 c.4.1.3 (A:2-247,A:317-384) UDP-galactopyranose mutase, N-terminal domain {Klebsiella pneumoniae [TaxId: 573]}
+>g1o7d.3 c.6.2.1 (A:51-342,B:347-384) Lysosomal alpha-mannosidase {Cow (Bos taurus) [TaxId: 9913]}
+>d1zyma2 c.8.1.2 (A:3-21,A:145-249) N-terminal domain of enzyme I of the PEP:sugar phosphotransferase system {Escherichia coli [TaxId: 562]}
+>d1fc6a4 c.14.1.2 (A:78-156,A:249-463) Photosystem II D1 C-terminal processing protease {Algae (Scenedesmus obliquus) [TaxId: 3088]}
+>d1k32a4 c.14.1.2 (A:680-762,A:854-1061) Tricorn protease {Thermoplasma acidophilum [TaxId: 2303]}
+>g1pyo.1 c.17.1.1 (A:,B:) Caspase-2 {Human (Homo sapiens) [TaxId: 9606]}
+>g1qtn.1 c.17.1.1 (A:,B:) Caspase-8 {Human (Homo sapiens) [TaxId: 9606]}
+>g1sc3.1 c.17.1.1 (A:,B:) Interleukin-1beta converting enzyme (a cysteine protease) {Human (Homo sapiens) [TaxId: 9606]}
+>d2hg4a6 c.19.1.1 (A:550-677,A:742-869) Catalytic domain from acyl transferase (AT) domain of 6-deoxyerythronolide B synthase (DEBS) {Saccharopolyspora erythraea [TaxId: 1836]}
+>d2jfda3 c.19.1.1 (A:491-616,A:681-806) Catalytic domain from acyl transferase MAT {Human (Homo sapiens) [TaxId: 9606]}
+>d1mlaa1 c.19.1.1 (A:3-127,A:198-307) Catalytic domain of malonyl-CoA ACP transacylase FabD {Escherichia coli [TaxId: 562]}
+>d1nm2a1 c.19.1.1 (A:1-133,A:196-314) Catalytic domain of malonyl-CoA ACP transacylase FabD {Streptomyces coelicolor A3(2) [TaxId: 100226]}
+>d1flca2 c.23.10.2 (A:1-150,A:307-427) Esterase domain of haemagglutinin-esterase-fusion glycoprotein HEF1 {Influenza C virus [TaxId: 11552]}
+>d3abza2 c.23.11.1 (A:300-387,A:560-720) Beta-glucosidase middle domain {Kluyveromyces marxianus [TaxId: 4911]}
+>d1dxya2 c.23.12.1 (A:1-100,A:300-330) D-2-hydroxyisocaproate dehydrogenase {Lactobacillus casei [TaxId: 1582]}
+>d1gdha2 c.23.12.1 (A:2-100,A:292-321) D-glycerate dehydrogenase {Hyphomicrobium methylovorum [TaxId: 84]}
+>d1j4aa2 c.23.12.1 (A:2-103,A:301-332) D-lactate dehydrogenase {Lactobacillus helveticus [TaxId: 1587]}
+>d2naca2 c.23.12.1 (A:1-147,A:336-374) Formate dehydrogenase {Pseudomonas sp., strain 101 [TaxId: 306]}
+>d1sc6a2 c.23.12.1 (A:7-107,A:296-326) Phosphoglycerate dehydrogenase {Escherichia coli [TaxId: 562]}
+>d1ygya2 c.23.12.1 (A:3-98,A:283-316) Phosphoglycerate dehydrogenase {Mycobacterium tuberculosis [TaxId: 1773]}
+>d1qp8a2 c.23.12.1 (A:1-82,A:264-302) Putative formate dehydrogenase {Pyrobaculum aerophilum [TaxId: 13773]}
+>d1mx3a2 c.23.12.1 (A:28-125,A:319-352) Transcription corepressor CtbP {Human (Homo sapiens), Ctbp1 [TaxId: 9606]}
+>d1saya2 c.23.12.2 (A:1-135,A:304-361) L-alanine dehydrogenase {Phormidium lapideum [TaxId: 32060]}
+>d1l7da2 c.23.12.2 (A:1-143,A:327-377) Nicotinamide nucleotide transhydrogenase dI component {Rhodospirillum rubrum [TaxId: 1085]}
+>d1li4a2 c.23.12.3 (A:3-189,A:353-432) S-adenosylhomocystein hydrolase {Human (Homo sapiens) [TaxId: 9606]}
+>d1ffya3 c.26.1.1 (A:1-200,A:395-644) Isoleucyl-tRNA synthetase (IleRS) {Staphylococcus aureus [TaxId: 1280]}
+>d1ilea3 c.26.1.1 (A:1-197,A:387-641) Isoleucyl-tRNA synthetase (IleRS) {Thermus thermophilus [TaxId: 274]}
+>d1h3na3 c.26.1.1 (A:1-225,A:418-686) Leucyl-tRNA synthetase (LeuRS) {Thermus thermophilus [TaxId: 274]}
+>d1pfva2 c.26.1.1 (A:4-140,A:176-388) Methionyl-tRNA synthetase (MetRS) {Escherichia coli [TaxId: 562]}
+>d1rqga2 c.26.1.1 (A:1-138,A:174-396) Methionyl-tRNA synthetase (MetRS) {Pyrococcus abyssi [TaxId: 29292]}
+>d1ivsa4 c.26.1.1 (A:1-189,A:343-578) Valyl-tRNA synthetase (ValRS) {Thermus thermophilus [TaxId: 274]}
+>d1zina1 c.37.1.1 (A:1-125,A:161-217) Adenylate kinase {Bacillus stearothermophilus [TaxId: 1422]}
+>d1dvra1 c.37.1.1 (A:1-130,A:169-220) Adenylate kinase {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d2ak3a1 c.37.1.1 (A:0-124,A:162-225) Adenylate kinase {Cow (Bos taurus), mitochondrial izozyme-3 [TaxId: 9913]}
+>d1svsa1 c.37.1.8 (A:32-60,A:182-347) Transducin (alpha subunit) {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>d1qvia2 c.37.1.9 (A:6-28,A:77-837) Myosin S1, motor domain {Bay scallop (Aequipecten irradians) [TaxId: 31199]}
+>d1vdza1 c.37.1.11 (A:60-113,A:191-439) A1 ATP synthase A subunit, central domain {Pyrococcus horikoshii [TaxId: 53953]}
+>g1f2t.1 c.37.1.12 (A:,B:) Rad50 {Pyrococcus furiosus [TaxId: 2261]}
+>g1qhh.1 c.37.1.19 (A:,B:,C:,D:) DEXX box DNA helicase {Bacillus stearothermophilus, PcrA [TaxId: 1422]}
+>d4pj3a3 c.37.1.19 (A:416-492,A:662-1133) Pre-mRNA splicing factor Cwf11 / Aquarius {Human (Homo sapiens) [TaxId: 9606]}
+>d3jb9x3 c.37.1.19 (X:385-460,X:619-1044) Pre-mRNA splicing factor Cwf11 / Aquarius {Schizosaccharomyces pombe 972h- [TaxId: 284812]}
+>d1tf5a3 c.37.1.19 (A:1-226,A:349-395) Translocation ATPase SecA, nucleotide-binding domains {Bacillus subtilis [TaxId: 1423]}
+>d2gk6a1 c.37.1.19 (A:295-324,A:416-702) Upf1 {Human (Homo sapiens) [TaxId: 9606]}
+>d2d0oa2 c.55.1.6 (A:1-92,A:255-403) Diol dehydratase-reactivating factor large subunit DdrA {Klebsiella oxytoca [TaxId: 571]}
+>d4ogca1 c.55.3.16 (A:8-49,A:468-512,A:674-821) CRISPR-associated endonuclease Cas9/Csn1, RuvC-like domain {Actinomyces naeslundii [TaxId: 1115803]}
+>d5axwa1 c.55.3.16 (A:3-40,A:430-483,A:631-781) CRISPR-associated endonuclease Cas9/Csn1, RuvC-like domain {Staphylococcus aureus subsp. aureus [TaxId: 46170]}
+>d4oo8a1 c.55.3.16 (A:3-58,A:718-769,A:908-1102) CRISPR-associated endonuclease Cas9/Csn1, RuvC-like domain {Streptococcus pyogenes [TaxId: 301447]}
+>d1z2la1 c.56.5.4 (A:4-212,A:330-413) Allantoate amidohydrolase AllC catalytic domain {Escherichia coli [TaxId: 562]}
+>g1q7l.1 c.56.5.4 (A:,B:) Aminoacylase-1, catalytic domain {Human (Homo sapiens) [TaxId: 9606]}
+>d1lfwa1 c.56.5.4 (A:1-186,A:383-468) Aminopeptidase PepV {Lactobacillus delbrueckii [TaxId: 1584]}
+>d1yloa2 c.56.5.4 (A:1-66,A:148-345) Aminopeptidase YpdE {Shigella flexneri [TaxId: 623]}
+>d1cg2a1 c.56.5.4 (A:26-213,A:327-414) Carboxypeptidase G2, catalytic domain {Pseudomonas sp., strain rs-16 [TaxId: 306]}
+>d2grea2 c.56.5.4 (A:3-73,A:187-348) Deblocking aminopeptidase YhfE {Bacillus cereus [TaxId: 1396]}
+>d2fvga2 c.56.5.4 (A:1-64,A:149-339) Endoglucanase TM1049 {Thermotoga maritima [TaxId: 2336]}
+>d1y0ya3 c.56.5.4 (A:6-72,A:164-351) Frv operon protein FrvX, catalytic domain {Pyrococcus horikoshii [TaxId: 53953]}
+>d1vhea2 c.56.5.4 (A:3-72,A:163-361) Hypothetical protein YsdC, catalytic domain {Bacillus subtilis [TaxId: 1423]}
+>d2q43a1 c.56.5.4 (A:16-194,A:314-407) IAA-amino acid hydrolase, catalytic domain {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+>d1fnoa4 c.56.5.4 (A:1-207,A:321-408) Peptidase T (tripeptidase), catalytic domain {Salmonella typhimurium [TaxId: 90371]}
+>d1r3na1 c.56.5.4 (A:18-247,A:364-455) Peptidase-like beta-alanine synthase, catalytic domain {Yeast (Saccharomyces kluyveri) [TaxId: 4934]}
+>d1y7ea2 c.56.5.4 (A:4-100,A:234-458) Probable aminopeptidase ApeA {Lyme disease spirochete (Borrelia burgdorferi) [TaxId: 139]}
+>d1ysja1 c.56.5.4 (A:4-177,A:293-379) Protein YxeP {Bacillus subtilis [TaxId: 1423]}
+>d1vhoa2 c.56.5.4 (A:3-69,A:153-333) Putative endoglucanase TM1048, catalytic domain {Thermotoga maritima [TaxId: 2336]}
+>d1vgya1 c.56.5.4 (A:2-180,A:294-376) Succinyl-diaminopimelate desuccinylase, catalytic domain {Neisseria meningitidis [TaxId: 487]}
+>d3bi1a3 c.56.5.5 (A:57-117,A:351-593) Glutamate carboxypeptidase II FOLH1 {Human (Homo sapiens) [TaxId: 9606]}
+>d3kasa1 c.56.5.5 (A:121-189,A:383-608) Transferrin receptor ectodomain, protease-like domain {Human (Homo sapiens) [TaxId: 9606]}
+>d1n2xa2 c.66.1.23 (A:8-114,A:216-294) TM0872, methyltransferase domain {Thermotoga maritima [TaxId: 2336]}
+>g1bcs.1 c.69.1.5 (A:,B:) Serine carboxypeptidase II {Wheat (Triticum vulgare) [TaxId: 4565]}
+>d1o98a2 c.76.1.3 (A:2-76,A:311-510) 2,3-Bisphosphoglycerate-independent phosphoglycerate mutase, catalytic domain {Bacillus stearothermophilus [TaxId: 1422]}
+>d3m7va1 c.76.1.5 (A:3-107,A:227-403) Phosphopentomutase DeoB {Streptococcus mutans [TaxId: 1309]}
+>d1tuga1 c.78.1.1 (A:1-150,A:151-310) Aspartate carbamoyltransferase catalytic subunit {Escherichia coli [TaxId: 562]}
+>d3ar4a3 c.108.1.7 (A:344-360,A:600-750) Calcium ATPase, catalytic domain P {Rabbit (Oryctolagus cuniculus) [TaxId: 9986]}
+>d2b8ec1 c.108.1.7 (C:410-434,C:548-669) Cation-transporting ATPase {Archaeoglobus fulgidus [TaxId: 2234]}
+>d1k3ra2 c.116.1.2 (A:1-92,A:164-262) Hypothetical protein MTH1 (MT0001), dimerisation domain {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+>d1o8ba1 c.124.1.4 (A:23-126,A:199-218) D-ribose-5-phosphate isomerase (RpiA), catalytic domain {Escherichia coli [TaxId: 562]}
+>d1lk5a1 c.124.1.4 (A:1-130,A:211-229) D-ribose-5-phosphate isomerase (RpiA), catalytic domain {Pyrococcus horikoshii [TaxId: 53953]}
+>d1uj6a1 c.124.1.4 (A:3-131,A:206-227) D-ribose-5-phosphate isomerase (RpiA), catalytic domain {Thermus thermophilus [TaxId: 274]}
+>g1w2w.1 c.124.1.5 (A:,B:) Putative methylthioribose-1-phosphate isomerase Ypr118W {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d3ci0k3 d.24.1.6 (K:29-93,K:275-315) Pseudopilin GspK {Escherichia coli [TaxId: 562]}
+>d2d4za3 d.37.1.1 (A:527-606,A:691-770) Chloride channel protein, CBS tandem {Marbled electric ray (Torpedo marmorata) [TaxId: 7788]}
+>d1kp8a3 d.56.1.1 (A:137-190,A:367-409) GroEL, I domain {Escherichia coli [TaxId: 562]}
+>d1q3qa3 d.56.1.2 (A:146-216,A:370-405) Thermosome, I domain {Thermococcus sp. ks-1, alpha chain [TaxId: 79679]}
+>d1m1ha2 d.58.42.1 (A:5-50,A:132-186) N-utilization substance G protein NusG, N-terminal domain {Aquifex aeolicus [TaxId: 63363]}
+>d1iwga2 d.58.44.1 (A:135-181,A:274-330) Multidrug efflux transporter AcrB pore domain; PN1, PN2, PC1 and PC2 subdomains {Escherichia coli [TaxId: 562]}
+>d1iwga4 d.58.44.1 (A:674-724,A:813-859) Multidrug efflux transporter AcrB pore domain; PN1, PN2, PC1 and PC2 subdomains {Escherichia coli [TaxId: 562]}
+>d1qmha2 d.68.2.1 (A:5-184,A:280-338) RNA 3'-terminal phosphate cyclase, RPTC {Escherichia coli [TaxId: 562]}
+>g1kve.1 d.70.1.2 (A:,B:) SMK toxin {Halotolerant yeast (Pichia farinosa) [TaxId: 4920]}
+>d1bdfa1 d.74.3.1 (A:2-52,A:179-232) RNA polymerase alpha {Escherichia coli [TaxId: 562]}
+>d4c2mc1 d.74.3.1 (C:31-75,C:222-335) RNA polymerases I and III subunit AC40 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1twfc1 d.74.3.1 (C:3-41,C:173-268) RPB3 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1qkia2 d.81.1.5 (A:200-434,A:450-511) Glucose 6-phosphate dehydrogenase {Human (Homo sapiens) [TaxId: 9606]}
+>d1h9aa2 d.81.1.5 (A:182-412,A:427-485) Glucose 6-phosphate dehydrogenase {Leuconostoc mesenteroides [TaxId: 1245]}
+>d1l0wa3 d.104.1.1 (A:105-294,A:415-580) Aspartyl-tRNA synthetase (AspRS) {Thermus thermophilus, AspRS-1 [TaxId: 274]}
+>d3nema2 d.104.1.0 (A:103-316,A:317-438) automated matches {Thermococcus kodakarensis [TaxId: 311400]}
+>d1lrza3 d.108.1.4 (A:166-244,A:310-412) Methicillin resistance protein FemA {Staphylococcus aureus [TaxId: 1280]}
+>d1b6aa2 d.127.1.1 (A:110-374,A:449-478) Methionine aminopeptidase {Human (Homo sapiens) [TaxId: 9606]}
+>d1xgsa2 d.127.1.1 (A:1-194,A:272-295) Methionine aminopeptidase {Pyrococcus furiosus [TaxId: 2261]}
+>d1zq1c3 d.128.1.5 (C:5-276,C:408-456) Glutamyl-tRNA(Gln) amidotransferase subunit E, GatE {Pyrococcus abyssi [TaxId: 29292]}
+>d3mmca3 d.134.1.1 (A:167-238,A:305-417) Dissimilatory sulfite reductase subunit alpha, DsrA {Archaeoglobus fulgidus [TaxId: 2234]}
+>d3c7bb5 d.134.1.1 (B:123-196,B:262-366) Dissimilatory sulfite reductase subunit beta, DsrB {Archaeoglobus fulgidus [TaxId: 2234]}
+>d1m0wa2 d.142.1.6 (A:6-210,A:324-491) Eukaryotic glutathione synthetase ATP-binding domain {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d2hgsa4 d.142.1.6 (A:3-201,A:304-474) Eukaryotic glutathione synthetase ATP-binding domain {Human (Homo sapiens) [TaxId: 9606]}
+>d2io8a3 d.142.1.8 (A:201-378,A:497-618) Glutathionylspermidine synthase, synthetase domain {Escherichia coli [TaxId: 562]}
+>d4jspa1 d.144.1.4 (A:2002-2021,A:2114-2549) mTOR kinase domain {Human (Homo sapiens) [TaxId: 9606]}
+>g1or0.1 d.153.1.2 (A:,B:) Cephalosporin acylase {Pseudomonas sp., glutarylamidase [TaxId: 306]}
+>g1gk9.1 d.153.1.2 (A:,B:) Penicillin acylase {Escherichia coli [TaxId: 562]}
+>g1k2x.1 d.153.1.5 (A:,B:) Glycosylasparaginase (aspartylglucosaminidase, AGA) {Escherichia coli [TaxId: 562]}
+>g1apy.1 d.153.1.5 (A:,B:) Glycosylasparaginase (aspartylglucosaminidase, AGA) {Human (Homo sapiens) [TaxId: 9606]}
+>g2dg5.1 d.153.1.6 (A:37-387,B:391-580) Gamma-glutamyltranspeptidase, GGT {Escherichia coli [TaxId: 562]}
+>g1ibv.1 d.155.1.1 (A:,B:) Histidine decarboxylase {Lactobacillus sp., strain 30a [TaxId: 1591]}
+>g1n13.1 d.155.1.2 (A:,B:) Arginine decarboxylase {Methanococcus jannaschii [TaxId: 2190]}
+>g1mhm.1 d.156.1.1 (B:,A:) S-adenosylmethionine decarboxylase {Potato (Solanum tuberosum) [TaxId: 4113]}
+>d2i7xa1 d.157.1.10 (A:1-422,A:626-717) Cleavage factor two protein 2, CFT2 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+>d1k4ta2 d.163.1.2 (A:431-640,A:713-765) Eukaryotic DNA topoisomerase I, catalytic core {Human (Homo sapiens) [TaxId: 9606]}
+>d1dqaa4 d.179.1.1 (A:462-586,A:704-870) Substrate-binding domain of HMG-CoA reductase {Human (Homo sapiens) [TaxId: 9606]}
+>d4i6ya1 d.179.1.1 (A:3-110,A:221-376) Substrate-binding domain of HMG-CoA reductase {Pseudomonas mevalonii [TaxId: 32044]}
+>g2vt1.1 d.367.1.1 (A:237-257,B:258-338) Surface presentation of antigens protein SpaS {Shigella flexneri [TaxId: 623]}
+>g3bzy.1 d.367.1.1 (A:246-262,B:263-345) Type III secretion proteins EscU {Escherichia coli [TaxId: 562]}
+>g1jjo.1 e.1.1.1 (A:,C:,E:) Neuroserpin {Mouse (Mus musculus) [TaxId: 10090]}
+>g1lq8.3 e.1.1.1 (E:,F:) Protein C inhibitor {Human (Homo sapiens) [TaxId: 9606]}
+>g1m93.1 e.1.1.1 (A:,B:,C:) Viral serpin crmA (cytokine response modifier protein) {Cowpox virus [TaxId: 10243]}
+>g1jmu.1 e.35.1.1 (A:,B:) Membrane penetration protein mu1 {Reovirus [TaxId: 10891]}
+>g1qd6.1 f.4.2.1 (A:,C:) Outer membrane phospholipase A (OMPLA) {Escherichia coli [TaxId: 562]}
+>d1g5ga1 f.12.1.1 (A:33-66,A:224-454) Head and neck region of the ectodomain of NDV fusion glycoprotein {Newcastle disease virus [TaxId: 11176]}
+>d3emla1 f.13.1.4 (A:3-208,A:222-310) Adenosine A2A receptor {Human (Homo sapiens) [TaxId: 9606]}
+>d3kg2a3 f.14.2.1 (A:508-632,A:774-817) Ionotropic glutamate receptor 2 (GluR2) ligand channel domain {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+>d3ar4a1 f.33.1.1 (A:1-124,A:240-343,A:751-994) Calcium ATPase, transmembrane domain M {Rabbit (Oryctolagus cuniculus) [TaxId: 9986]}
+>d2zxea4 f.33.1.1 (A:32-166,A:275-368,A:766-1023) Sodium/potassium-transporting ATPase, transmembrane domain {Dogfish (Squalus acanthias) [TaxId: 7797]}
+>d1iwga7 f.35.1.1 (A:7-37,A:331-498) Multidrug efflux transporter AcrB transmembrane domain {Escherichia coli [TaxId: 562]}
+>d1iwga8 f.35.1.1 (A:513-566,A:869-1036) Multidrug efflux transporter AcrB transmembrane domain {Escherichia coli [TaxId: 562]}
+>g1bom.1 g.1.1.1 (B:,A:) Bombyxin-II {Silkworm (Bombyx mori) [TaxId: 7091]}
+>g1g7a.1 g.1.1.1 (B:,A:) Insulin {Human (Homo sapiens) [TaxId: 9606]}
+>g6rlx.1 g.1.1.1 (B:,A:) Relaxin {Human (Homo sapiens) [TaxId: 9606]}
+>g1bi6.2 g.3.12.1 (L:,H:1-7,H:32-41) Bromelain inhibitor VI (cysteine protease inhibitor) {Pineapple (Ananas comosus) [TaxId: 4615]}
+>d1pjua2 g.69.1.1 (A:2-15,A:75-116) Wound-induced proteinase inhibitor-II {Tomato (Lycopersicon esculentum) [TaxId: 4081]}
+>g1sse.1 g.78.1.1 (A:,B:) YAP1 redox domain {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
