@@ -14,7 +14,7 @@ Course Projects During My M.S. and Ph.D. Studies
 
 *** 
 
-## [ECEN766: Algorithms in Structural Bioinformatics](https://github.com/Shaowen1994/TAMU_CourseProjects/tree/main/ECEN766_AlgorithmsInStructureBioinformatics)
+## [ECEN766: Algorithms in Structural Bioinformatics](https://github.com/Shaowen1994/TAMU_CourseProjects/tree/main/ECEN766_AlgorithmsInStructuralBioinformatics)
 
 **Project Name:** Cross Modality (Seqeunce2Fold) Learning on Proteins \
 **Instructor:** Dr. Yang Shen \
